@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Validation Report — horitable</title>
+<style>
+  body { font-family: "Segoe UI", Arial, sans-serif; margin: 2rem; color: #222; max-width: 1100px; }
+  h1 { font-size: 1.3rem; border-bottom: 2px solid #333; padding-bottom: 0.4rem; }
+  h2 { font-size: 1.05rem; margin-top: 2rem; color: #1a1a1a; }
+  table { border-collapse: collapse; font-size: 0.88rem; margin: 0.8rem 0 1.2rem 0; }
+  th, td { border: 1px solid #999; padding: 5px 12px; text-align: center; }
+  th { background: #3b3b3b; color: #fff; font-weight: 600; }
+  td:first-child { text-align: left; }
+  .pass { color: #1a7d1a; font-weight: 600; }
+  .fail { color: #c0392b; font-weight: 600; }
+  .na { color: #777; }
+  .summary-box { background: #eafaea; border: 1px solid #2ecc71; border-radius: 6px; padding: 1rem 1.4rem; margin: 1.5rem 0; }
+  .summary-box.review { background: #fef9e7; border-color: #f1c40f; }
+  .summary-box.fail { background: #fdedec; border-color: #e74c3c; }
+  .score { font-size: 1.6rem; font-weight: 700; }
+  .badge { display: inline-block; padding: 3px 14px; border-radius: 4px; font-weight: 700; font-size: 0.95rem; }
+  .badge.accept { background: #27ae60; color: #fff; }
+  .badge.review { background: #f39c12; color: #fff; }
+  .badge.reextract { background: #c0392b; color: #fff; }
+</style>
+</head>
+<body>
+
+<h1>Validation Report: horitable</h1>
+<p><strong>Original file:</strong> horitable.pdf<br>
+<strong>Reproduced file:</strong> horitable_reproduced.html<br>
+<strong>Validation date:</strong> 2026-03-18</p>
+
+<!-- ====== STEP 2 — Structure ====== -->
+<h2>Step 2 — Table Structure Comparison</h2>
+<table>
+  <thead>
+    <tr><th>Field</th><th>Original</th><th>Reproduced</th><th>Match?</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Table title</td>
+      <td>Table 10. Equipment installed cost breakdown for base case, multi-stage CO₂-FTS and CO₂-FTS with tail gas recycle.</td>
+      <td>Table 10. Equipment installed cost breakdown for base case, multi-stage CO₂-FTS and CO₂-FTS with tail gas recycle.</td>
+      <td class="pass">Yes</td>
+    </tr>
+    <tr><td>Number of columns</td><td>7 (1 label + 6 data)</td><td>7 (1 label + 6 data)</td><td class="pass">Yes</td></tr>
+    <tr><td>Number of data rows</td><td>6</td><td>6</td><td class="pass">Yes</td></tr>
+    <tr><td>Column headers</td><td>Equipment, Base case, Two-stage, Three-stage, 63.8 % recycle, 80.3 % recycle, 90 % recycle</td><td>Equipment, Base case, Two-stage, Three-stage, 63.8 % recycle, 80.3 % recycle, 90 % recycle</td><td class="pass">Yes</td></tr>
+    <tr><td>Spanning headers present</td><td>Yes</td><td>Yes</td><td class="pass">Yes</td></tr>
+    <tr><td>Spanning headers correct</td><td>Multi-stage CO₂-FTS (colspan 2), CO₂-FTS with tail gas recycle (colspan 3)</td><td>Multi-stage CO₂-FTS (colspan 2), CO₂-FTS with tail gas recycle (colspan 3)</td><td class="pass">Yes</td></tr>
+    <tr><td>Row identifiers</td><td>H₂ compressor, CO₂ compressor, Heater, CO₂-FTS reactor, Cooler, Three-phase separator</td><td>H₂ compressor, CO₂ compressor, Heater, CO₂-FTS reactor, Cooler, Three-phase separator</td><td class="pass">Yes</td></tr>
+  </tbody>
+</table>
+<p><strong>Structural mismatches:</strong> None.</p>
+
+<!-- ====== STEP 3 — Cell-by-cell ====== -->
+<h2>Step 3 — Cell-by-Cell Validation</h2>
+<p>All 36 data cells were compared between original and reproduced tables.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Equipment</th>
+      <th>Base case</th>
+      <th>Two-stage</th>
+      <th>Three-stage</th>
+      <th>63.8 % recycle</th>
+      <th>80.3 % recycle</th>
+      <th>90 % recycle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>H₂ compressor</td><td class="pass">13.14 ✓</td><td class="pass">13.14 ✓</td><td class="pass">13.14 ✓</td><td class="pass">13.14 ✓</td><td class="pass">13.14 ✓</td><td class="pass">13.14 ✓</td></tr>
+    <tr><td>CO₂ compressor</td><td class="pass">57.61 ✓</td><td class="pass">57.61 ✓</td><td class="pass">57.61 ✓</td><td class="pass">57.61 ✓</td><td class="pass">57.61 ✓</td><td class="pass">57.61 ✓</td></tr>
+    <tr><td>Heater</td><td class="pass">1.87 ✓</td><td class="pass">3.52 ✓</td><td class="pass">4.54 ✓</td><td class="pass">2.92 ✓</td><td class="pass">3.37 ✓</td><td class="pass">3.47 ✓</td></tr>
+    <tr><td>CO₂-FTS reactor</td><td class="pass">55.25 ✓</td><td class="pass">93.33 ✓</td><td class="pass">119.11 ✓</td><td class="pass">82.72 ✓</td><td class="pass">95.49 ✓</td><td class="pass">104.55 ✓</td></tr>
+    <tr><td>Cooler</td><td class="pass">0.23 ✓</td><td class="pass">0.41 ✓</td><td class="pass">0.56 ✓</td><td class="pass">0.29 ✓</td><td class="pass">0.31 ✓</td><td class="pass">0.32 ✓</td></tr>
+    <tr><td>Three-phase separator</td><td class="pass">0.17 ✓</td><td class="pass">0.31 ✓</td><td class="pass">0.43 ✓</td><td class="pass">0.18 ✓</td><td class="pass">0.19 ✓</td><td class="pass">0.19 ✓</td></tr>
+  </tbody>
+</table>
+<p><strong>Discrepancies found:</strong> 0 out of 36 cells.</p>
+
+<!-- ====== STEP 4 — Spanning headers ====== -->
+<h2>Step 4 — Spanning &amp; Merged Header Validation</h2>
+<table>
+  <thead>
+    <tr><th>Parent Header</th><th>Expected Span</th><th>Reproduced Span</th><th>Sub-columns Correct?</th><th>Match?</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Equipment</td><td>rowspan="3"</td><td>rowspan="3"</td><td>N/A</td><td class="pass">Yes</td>
+    </tr>
+    <tr>
+      <td>Base case</td><td>rowspan="2"</td><td>rowspan="2"</td><td>N/A (no sub-columns)</td><td class="pass">Yes</td>
+    </tr>
+    <tr>
+      <td>Multi-stage CO₂-FTS</td><td>colspan="2"</td><td>colspan="2"</td><td>Two-stage, Three-stage</td><td class="pass">Yes</td>
+    </tr>
+    <tr>
+      <td>CO₂-FTS with tail gas recycle</td><td>colspan="3"</td><td>colspan="3"</td><td>63.8 % recycle, 80.3 % recycle, 90 % recycle</td><td class="pass">Yes</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Spanning header issues:</strong> None.</p>
+
+<!-- ====== STEP 5 — Footnotes ====== -->
+<h2>Step 5 — Footnotes &amp; Annotations</h2>
+<p class="na">Not applicable — the original table contains no footnotes, symbols, or annotations.</p>
+
+<!-- ====== STEP 6 — Common errors ====== -->
+<h2>Step 6 — Common Extraction Error Checks</h2>
+<table>
+  <thead>
+    <tr><th>Check</th><th>Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Values shifted into adjacent column</td><td class="pass">Not found</td></tr>
+    <tr><td>Rows missing entirely</td><td class="pass">Not found</td></tr>
+    <tr><td>Decimal point misread (e.g. 1.87 → 187)</td><td class="pass">Not found</td></tr>
+    <tr><td>Superscripts/subscripts dropped (CO₂ → CO2)</td><td class="pass">Not found — H₂ and CO₂ correctly use subscript characters</td></tr>
+    <tr><td>Spanning headers flattened to single level</td><td class="pass">Not found — three-level header hierarchy preserved</td></tr>
+    <tr><td>Landscape orientation row/column swap</td><td class="pass">Not found — original is landscape; rows and columns correctly mapped</td></tr>
+    <tr><td>Units missing from column headers</td><td class="pass">Not found — "Equipment installed cost (M$)" present in all sub-headers</td></tr>
+  </tbody>
+</table>
+
+<!-- ====== STEP 7 — Confidence scores ====== -->
+<h2>Step 7 — Confidence Scores</h2>
+<table>
+  <thead>
+    <tr><th>Column</th><th>Score</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Equipment (row labels)</td><td><strong>1.0</strong></td><td>All labels match, subscripts preserved</td></tr>
+    <tr><td>Base case</td><td><strong>1.0</strong></td><td>All 6 values identical</td></tr>
+    <tr><td>Two-stage</td><td><strong>1.0</strong></td><td>All 6 values identical</td></tr>
+    <tr><td>Three-stage</td><td><strong>1.0</strong></td><td>All 6 values identical</td></tr>
+    <tr><td>63.8 % recycle</td><td><strong>1.0</strong></td><td>All 6 values identical</td></tr>
+    <tr><td>80.3 % recycle</td><td><strong>1.0</strong></td><td>All 6 values identical</td></tr>
+    <tr><td>90 % recycle</td><td><strong>1.0</strong></td><td>All 6 values identical</td></tr>
+  </tbody>
+</table>
+
+<div class="summary-box">
+  <p><strong>Overall extraction confidence:</strong> <span class="score">1.00</span></p>
+  <p><strong>Validation summary:</strong> The reproduced HTML table is a perfect match to the original PDF table — all 36 data cells, all headers, spanning structure, subscripts, and units are correctly reproduced with zero discrepancies.</p>
+  <p><strong>Recommended action:</strong> <span class="badge accept">ACCEPT</span></p>
+</div>
+
+</body>
+</html>

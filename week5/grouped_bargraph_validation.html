@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Validation Report — grouped_bargraph</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2rem; background: #fafafa; color: #222; }
+  h1 { border-bottom: 3px solid #333; padding-bottom: .4rem; }
+  h2 { margin-top: 2rem; color: #444; }
+  .side-by-side { display: flex; gap: 2rem; flex-wrap: wrap; }
+  .side-by-side figure { flex: 1; min-width: 300px; text-align: center; }
+  .side-by-side img { max-width: 100%; border: 1px solid #ccc; border-radius: 4px; }
+  table { border-collapse: collapse; margin: 1rem 0; width: 100%; max-width: 800px; }
+  th, td { border: 1px solid #bbb; padding: .45rem .7rem; text-align: left; }
+  th { background: #e8e8e8; }
+  .match { color: green; font-weight: bold; }
+  .mismatch { color: red; font-weight: bold; }
+  .score { font-size: 1.3rem; font-weight: bold; }
+  .accept { color: green; }
+  .review { color: orange; }
+  .reextract { color: red; }
+  .summary-box { background: #eaffea; border: 2px solid green; border-radius: 6px; padding: 1rem 1.5rem; margin: 1.5rem 0; }
+  .note { background: #fff8e1; border-left: 4px solid #ffc107; padding: .5rem 1rem; margin: 1rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Validation Report: grouped_bargraph</h1>
+<p><strong>Date:</strong> 2026-03-18 &nbsp;|&nbsp; <strong>Original:</strong> grouped_bargraph.png &nbsp;|&nbsp; <strong>Reproduced:</strong> grouped_bargraph_reproduced.png</p>
+
+<!-- STEP 1: Side-by-side images -->
+<h2>Side-by-Side Comparison</h2>
+<div class="side-by-side">
+  <figure>
+    <img src="file:///C:/Users/Rithika/Desktop/grouped_bargraph.png" alt="Original">
+    <figcaption><strong>Original</strong></figcaption>
+  </figure>
+  <figure>
+    <img src="file:///C:/Users/Rithika/Desktop/ree-extraction-pipeline/results/bargraph/grouped_bargraph_reproduced.png" alt="Reproduced">
+    <figcaption><strong>Reproduced</strong></figcaption>
+  </figure>
+</div>
+
+<!-- STEP 2: Axis metadata -->
+<h2>Step 2 — Axis Metadata Comparison</h2>
+<table>
+  <tr><th>Field</th><th>Original</th><th>Reproduced</th><th>Match?</th></tr>
+  <tr><td>X-axis label</td><td>Year</td><td>Year</td><td class="match">Yes</td></tr>
+  <tr><td>X-axis categories</td><td>2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020</td><td>2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020</td><td class="match">Yes</td></tr>
+  <tr><td>X category order</td><td>2011 → 2020 (ascending)</td><td>2011 → 2020 (ascending)</td><td class="match">Yes</td></tr>
+  <tr><td>Y-axis label</td><td>Number of Papers</td><td>Number of Papers</td><td class="match">Yes</td></tr>
+  <tr><td>Y-axis unit</td><td>Count (dimensionless)</td><td>Count (dimensionless)</td><td class="match">Yes</td></tr>
+  <tr><td>Y-axis scale</td><td>Linear</td><td>Linear</td><td class="match">Yes</td></tr>
+  <tr><td>Y-axis range</td><td>0–500</td><td>0–500</td><td class="match">Yes</td></tr>
+</table>
+<p><strong>Flags:</strong> None — all axis metadata matches.</p>
+
+<!-- STEP 3: Series validation -->
+<h2>Step 3 — Series-by-Series Validation</h2>
+
+<h3>Series 1: Separation (Black)</h3>
+<table>
+  <tr><th>Year</th><th>Original (approx.)</th><th>Reproduced (approx.)</th><th>Status</th></tr>
+  <tr><td>2011</td><td>~130</td><td>~130</td><td class="match">Match</td></tr>
+  <tr><td>2012</td><td>~158</td><td>~158</td><td class="match">Match</td></tr>
+  <tr><td>2013</td><td>~175</td><td>~175</td><td class="match">Match</td></tr>
+  <tr><td>2014</td><td>~195</td><td>~195</td><td class="match">Match</td></tr>
+  <tr><td>2015</td><td>~250</td><td>~248</td><td class="match">Match</td></tr>
+  <tr><td>2016</td><td>~280</td><td>~280</td><td class="match">Match</td></tr>
+  <tr><td>2017</td><td>~335</td><td>~335</td><td class="match">Match</td></tr>
+  <tr><td>2018</td><td>~420</td><td>~420</td><td class="match">Match</td></tr>
+  <tr><td>2019</td><td>~450</td><td>~450</td><td class="match">Match</td></tr>
+  <tr><td>2020</td><td>~468</td><td>~465</td><td class="match">Match</td></tr>
+</table>
+<p>Series name matches legend exactly. Colour (black) matches. All 10 categories present. No discrepancies detected.</p>
+
+<h3>Series 2: Solvent Extraction (Red)</h3>
+<table>
+  <tr><th>Year</th><th>Original (approx.)</th><th>Reproduced (approx.)</th><th>Status</th></tr>
+  <tr><td>2011</td><td>~35</td><td>~35</td><td class="match">Match</td></tr>
+  <tr><td>2012</td><td>~45</td><td>~45</td><td class="match">Match</td></tr>
+  <tr><td>2013</td><td>~65</td><td>~65</td><td class="match">Match</td></tr>
+  <tr><td>2014</td><td>~70</td><td>~70</td><td class="match">Match</td></tr>
+  <tr><td>2015</td><td>~100</td><td>~100</td><td class="match">Match</td></tr>
+  <tr><td>2016</td><td>~110</td><td>~110</td><td class="match">Match</td></tr>
+  <tr><td>2017</td><td>~150</td><td>~150</td><td class="match">Match</td></tr>
+  <tr><td>2018</td><td>~210</td><td>~210</td><td class="match">Match</td></tr>
+  <tr><td>2019</td><td>~175</td><td>~175</td><td class="match">Match</td></tr>
+  <tr><td>2020</td><td>~170</td><td>~172</td><td class="match">Match</td></tr>
+</table>
+<p>Series name matches legend exactly. Colour (red) matches. All 10 categories present. No discrepancies detected.</p>
+
+<!-- STEP 4: Error bars -->
+<h2>Step 4 — Error Bar Validation</h2>
+<p><strong>Not applicable.</strong> No error bars are present in the original figure, and none appear in the reproduced figure. This is correct.</p>
+
+<!-- STEP 5: Common extraction errors -->
+<h2>Step 5 — Common Extraction Error Check</h2>
+<table>
+  <tr><th>Check</th><th>Result</th></tr>
+  <tr><td>Bar heights misread due to compressed y-axis range</td><td class="match">Not found — y-axis range is 0–500 in both, linear scale, no compression issues.</td></tr>
+  <tr><td>Log-scale bar heights incorrectly scaled</td><td class="match">Not applicable — both charts use linear scale.</td></tr>
+  <tr><td>Categories missing or in wrong order</td><td class="match">Not found — all 10 years present, 2011–2020, correct ascending order.</td></tr>
+  <tr><td>Two series with similar colours swapped</td><td class="match">Not found — black (Separation) and red (Solvent Extraction) are clearly distinct and correctly assigned in both figures.</td></tr>
+  <tr><td>Error bar values too large or too small</td><td class="match">Not applicable — no error bars in either figure.</td></tr>
+  <tr><td>Significance markers or annotations missed</td><td class="note">Minor note: The original has a small red dot near the top-right area (near 2020, ~350 on y-axis) that may be an annotation or artifact. This was not reproduced. This does not affect bar data accuracy.</td></tr>
+</table>
+
+<!-- STEP 6: Confidence scores -->
+<h2>Step 6 — Confidence Scores</h2>
+<table>
+  <tr><th>Series</th><th>Confidence</th><th>Rationale</th></tr>
+  <tr><td>Separation (Black)</td><td class="score">0.95</td><td>All bar heights match closely across all 10 categories. No missing bars. Minor visual differences are within pixel-estimation tolerance.</td></tr>
+  <tr><td>Solvent Extraction (Red)</td><td class="score">0.95</td><td>All bar heights match closely across all 10 categories. No missing bars. Minor visual differences are within pixel-estimation tolerance.</td></tr>
+  <tr><td><strong>Overall</strong></td><td class="score accept">0.95</td><td>Both series reproduced faithfully. All axis metadata matches. No critical failures.</td></tr>
+</table>
+
+<!-- Summary -->
+<h2>Validation Summary</h2>
+<div class="summary-box">
+  <p><strong>Summary:</strong> The reproduced grouped bar chart is an excellent match to the original — both series (Separation and Solvent Extraction) have consistent bar heights across all 10 year categories (2011–2020), with matching axis labels, scales, ranges, legend entries, and colours.</p>
+  <p><strong>Recommended Action:</strong> <span class="score accept">ACCEPT</span> (overall confidence 0.95 &ge; 0.85, no critical failures)</p>
+</div>
+
+</body>
+</html>
