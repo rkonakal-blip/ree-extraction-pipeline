@@ -1,0 +1,182 @@
+{
+  "chart_type": "scatter_line",
+  "panel": "b-top",
+  "confidence": "MEDIUM",
+  "figure_metadata": {
+    "title": "Distribution ratio vs LiCl/NaCl (panel b, top)",
+    "notes": "Figure 5b: La, Co, Sm vs LiCl+NaCl concentration"
+  },
+  "axes": {
+    "x": {
+      "label": "LiCl/NaCl (mol/L)",
+      "unit": "mol/L",
+      "scale": "linear",
+      "range": [
+        0,
+        2
+      ],
+      "ticks": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ]
+    },
+    "y": {
+      "label": "Distribution ratio",
+      "unit": null,
+      "scale": "log",
+      "range": [
+        0.1,
+        1000
+      ],
+      "ticks": [
+        0.1,
+        1,
+        10,
+        100,
+        1000
+      ]
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "La",
+        "marker": "circle",
+        "color": "red",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.2
+          },
+          {
+            "x": 0.1,
+            "y": 0.4
+          },
+          {
+            "x": 0.2,
+            "y": 0.6
+          },
+          {
+            "x": 0.3,
+            "y": 0.8
+          },
+          {
+            "x": 0.5,
+            "y": 1.1
+          },
+          {
+            "x": 0.75,
+            "y": 1.4
+          },
+          {
+            "x": 1.0,
+            "y": 1.6
+          },
+          {
+            "x": 1.5,
+            "y": 1.8
+          },
+          {
+            "x": 2.0,
+            "y": 2.0
+          }
+        ]
+      },
+      {
+        "name": "Co",
+        "marker": "triangle",
+        "color": "black",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -0.2
+          },
+          {
+            "x": 0.1,
+            "y": 0.0
+          },
+          {
+            "x": 0.2,
+            "y": 0.2
+          },
+          {
+            "x": 0.3,
+            "y": 0.4
+          },
+          {
+            "x": 0.5,
+            "y": 0.7
+          },
+          {
+            "x": 0.75,
+            "y": 1.0
+          },
+          {
+            "x": 1.0,
+            "y": 1.2
+          },
+          {
+            "x": 1.5,
+            "y": 1.5
+          },
+          {
+            "x": 2.0,
+            "y": 1.7
+          }
+        ]
+      },
+      {
+        "name": "Sm",
+        "marker": "square",
+        "color": "blue",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.5
+          },
+          {
+            "x": 0.1,
+            "y": 0.7
+          },
+          {
+            "x": 0.2,
+            "y": 0.9
+          },
+          {
+            "x": 0.3,
+            "y": 1.1
+          },
+          {
+            "x": 0.5,
+            "y": 1.3
+          },
+          {
+            "x": 0.75,
+            "y": 1.6
+          },
+          {
+            "x": 1.0,
+            "y": 1.8
+          },
+          {
+            "x": 1.5,
+            "y": 2.0
+          },
+          {
+            "x": 2.0,
+            "y": 2.1
+          }
+        ]
+      }
+    ]
+  },
+  "special_additions": {
+    "error_bars": null,
+    "trendline": null,
+    "annotations": [],
+    "reference_line": null
+  }
+}

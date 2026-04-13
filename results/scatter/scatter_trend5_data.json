@@ -1,0 +1,95 @@
+{
+  "chart_type": "scatter_line",
+  "figure_metadata": {
+    "title": "REE Recovery vs Contact Time",
+    "notes": "Three series with linear trendlines fitted to each. Trendline equations derived from visual fit: D2EHPA y=0.585x+53.17, Cyanex 272 y=0.480x+56.11, PC88A y=0.970x+40.17. No R\u00b2 values printed on figure."
+  },
+  "axes": {
+    "x": {
+      "label": "Contact Time (min)",
+      "unit": "min",
+      "scale": "linear",
+      "range": [0, 60],
+      "ticks": [0, 10, 20, 30, 40, 50, 60]
+    },
+    "y": {
+      "label": "Recovery (%)",
+      "unit": "%",
+      "scale": "linear",
+      "range": [40, 100],
+      "ticks": [40, 50, 60, 70, 80, 90, 100]
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "D2EHPA",
+        "marker": "circle",
+        "color": "teal",
+        "points": [
+          {"x": 5.443, "y": 57.12},
+          {"x": 12.369, "y": 63.03},
+          {"x": 20.026, "y": 62.71},
+          {"x": 28.072, "y": 69.94},
+          {"x": 35.588, "y": 70.33},
+          {"x": 43.370, "y": 78.31},
+          {"x": 52.690, "y": 84.19},
+          {"x": 59.366, "y": 90.05}
+        ]
+      },
+      {
+        "name": "Cyanex 272",
+        "marker": "square",
+        "color": "orange",
+        "points": [
+          {"x": 5.255, "y": 56.44},
+          {"x": 13.743, "y": 63.97},
+          {"x": 20.207, "y": 64.23},
+          {"x": 29.138, "y": 70.74},
+          {"x": 37.136, "y": 78.33},
+          {"x": 43.432, "y": 77.80},
+          {"x": 52.297, "y": 80.07},
+          {"x": 59.109, "y": 82.20}
+        ]
+      },
+      {
+        "name": "PC88A",
+        "marker": "triangle-up",
+        "color": "green",
+        "points": [
+          {"x": 5.000, "y": 46.81},
+          {"x": 12.354, "y": 50.09},
+          {"x": 20.010, "y": 60.77},
+          {"x": 28.888, "y": 65.95},
+          {"x": 35.699, "y": 76.11},
+          {"x": 43.872, "y": 82.54},
+          {"x": 52.997, "y": 90.20},
+          {"x": 59.662, "y": 99.50}
+        ]
+      }
+    ]
+  },
+  "special_additions": {
+    "error_bars": null,
+    "trendline": [
+      {
+        "series_name": "D2EHPA",
+        "coefficients": [0.585, 53.17],
+        "r_squared": null
+      },
+      {
+        "series_name": "Cyanex 272",
+        "coefficients": [0.480, 56.11],
+        "r_squared": null
+      },
+      {
+        "series_name": "PC88A",
+        "coefficients": [0.970, 40.17],
+        "r_squared": null
+      }
+    ],
+    "annotations": null,
+    "reference_line": null
+  },
+  "confidence": "HIGH"
+}

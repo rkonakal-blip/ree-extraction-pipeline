@@ -1,0 +1,185 @@
+{
+  "chart_type": "table",
+  "figure_metadata": {
+    "title": "Table 1. Rare-Earth Elements and Their Common Applications",
+    "orientation": "portrait",
+    "notes": "From review paper on REE recovery. Footnotes reference applications sources."
+  },
+  "structure": {
+    "num_columns": 4,
+    "num_data_rows": 17,
+    "spanning_headers_present": false,
+    "footnotes_present": true
+  },
+  "headers": {
+    "column_headers": [
+      "element",
+      "elemental ions",
+      "atomic number",
+      "applications"
+    ],
+    "parent_headers": []
+  },
+  "rows": [
+    {
+      "row_id": "lanthanum",
+      "values": {
+        "element": "lanthanum",
+        "elemental ions": "La(III)",
+        "atomic number": "57",
+        "applications": "Optics, batteries, catalysis, glasses, ceramics, pigments"
+      }
+    },
+    {
+      "row_id": "cerium",
+      "values": {
+        "element": "cerium",
+        "elemental ions": "Ce(III)",
+        "atomic number": "58",
+        "applications": "Chemical applications, coloring, catalysis, polishing powders, ceramics, UV filters"
+      }
+    },
+    {
+      "row_id": "praseodymium",
+      "values": {
+        "element": "praseodymium",
+        "elemental ions": "Pr(III)",
+        "atomic number": "59",
+        "applications": "Magnets, lighting, optics, ceramics, glasses, pigments"
+      }
+    },
+    {
+      "row_id": "neodymium",
+      "values": {
+        "element": "neodymium",
+        "elemental ions": "Nd(III)",
+        "atomic number": "60",
+        "applications": "Magnets, lighting, lasers, optics, catalysts, IR filters"
+      }
+    },
+    {
+      "row_id": "promethium",
+      "values": {
+        "element": "promethium",
+        "elemental ions": "Pm(III)",
+        "atomic number": "61",
+        "applications": "Paint, miniature nuclear batteries; very rare in nature"
+      }
+    },
+    {
+      "row_id": "samarium",
+      "values": {
+        "element": "samarium",
+        "elemental ions": "Sm(III)",
+        "atomic number": "62",
+        "applications": "Magnets, lasers, masers, microwave filters"
+      }
+    },
+    {
+      "row_id": "europium",
+      "values": {
+        "element": "europium",
+        "elemental ions": "Eu(III)",
+        "atomic number": "63",
+        "applications": "Lasers, lighting, medical applications"
+      }
+    },
+    {
+      "row_id": "gadolinium",
+      "values": {
+        "element": "gadolinium",
+        "elemental ions": "Gd(III)",
+        "atomic number": "64",
+        "applications": "Magnets, glasses, lasers, X-ray generation, computer applications, medical imaging, ceramics, glasses"
+      }
+    },
+    {
+      "row_id": "terbium",
+      "values": {
+        "element": "terbium",
+        "elemental ions": "Tb(III)",
+        "atomic number": "65",
+        "applications": "Lasers, lighting"
+      }
+    },
+    {
+      "row_id": "dysprosium",
+      "values": {
+        "element": "dysprosium",
+        "elemental ions": "Dy(III)",
+        "atomic number": "66",
+        "applications": "Magnets, lasers, ceramics"
+      }
+    },
+    {
+      "row_id": "holmium",
+      "values": {
+        "element": "holmium",
+        "elemental ions": "Ho(III)",
+        "atomic number": "67",
+        "applications": "Lasers, ceramics"
+      }
+    },
+    {
+      "row_id": "erbium",
+      "values": {
+        "element": "erbium",
+        "elemental ions": "Er(III)",
+        "atomic number": "68",
+        "applications": "Lasers, fibermaking, glasses, optical fibers"
+      }
+    },
+    {
+      "row_id": "thulium",
+      "values": {
+        "element": "thulium",
+        "elemental ions": "Tm(III)",
+        "atomic number": "69",
+        "applications": "X-ray generation, medical imaging"
+      }
+    },
+    {
+      "row_id": "ytterbium",
+      "values": {
+        "element": "ytterbium",
+        "elemental ions": "Yb(III)",
+        "atomic number": "70",
+        "applications": "Lasers, chemical industry applications, metallurgy"
+      }
+    },
+    {
+      "row_id": "lutetium",
+      "values": {
+        "element": "lutetium",
+        "elemental ions": "Lu(III)",
+        "atomic number": "71",
+        "applications": "Medical applications, chemical industry applications, single crystal scintillators"
+      }
+    },
+    {
+      "row_id": "scandium",
+      "values": {
+        "element": "scandium",
+        "elemental ions": "Sc(III)",
+        "atomic number": "21",
+        "applications": "Alloys in aerospace engineering, lighting, electron beam tubes"
+      }
+    },
+    {
+      "row_id": "yttrium",
+      "values": {
+        "element": "yttrium",
+        "elemental ions": "Y(III)",
+        "atomic number": "39",
+        "applications": "Lasers, superconductors, microwave filters, lighting, capacitors, glasses, sensors, radars"
+      }
+    }
+  ],
+  "footnotes": [
+    {
+      "marker": "a,b",
+      "text": "References to application data cited in source paper"
+    }
+  ],
+  "confidence": "HIGH"
+}

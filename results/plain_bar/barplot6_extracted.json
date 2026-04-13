@@ -1,0 +1,41 @@
+{
+  "title": "Effect of Temperature on Pr Extraction",
+  "x_label": "Temperature",
+  "y_label": "Extraction Efficiency (%)",
+  "y_axis_range": [
+    50,
+    100
+  ],
+  "bars": [
+    {
+      "label": "20",
+      "value": 51.0,
+      "error": 3.5
+    },
+    {
+      "label": "30",
+      "value": 94.4,
+      "error": 4.2
+    },
+    {
+      "label": "40",
+      "value": 55.1,
+      "error": 3.8
+    },
+    {
+      "label": "50",
+      "value": 67.6,
+      "error": 4.5
+    },
+    {
+      "label": "60",
+      "value": 86.5,
+      "error": 3.1
+    },
+    {
+      "label": "70",
+      "value": 77.6,
+      "error": 5.0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Contour Lines: Temperature and Contact Time Effect on Recovery",
+  "x_label": "Temperature (°C)",
+  "y_label": "Contact Time (min)",
+  "colorbar_label": null,
+  "x_range": [
+    20,
+    70
+  ],
+  "y_range": [
+    5,
+    60
+  ],
+  "z_range": [
+    0.0,
+    100.0
+  ],
+  "grid_resolution": 50,
+  "polynomial_coefficients": {
+    "a0": -135.2,
+    "a1": 6.85,
+    "a2": 4.12,
+    "a3": 0.008,
+    "a4": -0.068,
+    "a5": -0.055
+  },
+  "contour_levels": [
+    0.0,
+    10.0,
+    20.0,
+    30.0,
+    40.0,
+    50.0,
+    60.0,
+    70.0,
+    80.0,
+    90.0,
+    100.0
+  ],
+  "optimal_point": {
+    "x": 52.6531,
+    "y": 17.3469,
+    "z": 100.0
+  }
+}

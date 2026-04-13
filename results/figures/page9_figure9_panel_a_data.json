@@ -1,0 +1,195 @@
+{
+  "chart_type": "scatter_line",
+  "panel": "A",
+  "confidence": "MEDIUM",
+  "figure_metadata": {
+    "title": "log D_A vs REE - Panel A",
+    "notes": "TODGA/TBP vs TODGA/DCE"
+  },
+  "axes": {
+    "x": {
+      "label": "REE",
+      "unit": null,
+      "scale": "linear",
+      "range": [
+        1,
+        15
+      ],
+      "ticks": [
+        "Y",
+        "La",
+        "Ce",
+        "Pr",
+        "Nd",
+        "Sm",
+        "Eu",
+        "Gd",
+        "Tb",
+        "Dy",
+        "Ho",
+        "Er",
+        "Tm",
+        "Yb",
+        "Lu"
+      ]
+    },
+    "y": {
+      "label": "log D_A",
+      "unit": null,
+      "scale": "linear",
+      "range": [
+        -1.5,
+        1.5
+      ],
+      "ticks": [
+        -1,
+        0,
+        1
+      ]
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "TODGA/TBP",
+        "marker": "circle",
+        "color": "green",
+        "points": [
+          {
+            "x": "Y",
+            "y": -0.5
+          },
+          {
+            "x": "La",
+            "y": -0.6
+          },
+          {
+            "x": "Ce",
+            "y": -0.5
+          },
+          {
+            "x": "Pr",
+            "y": -0.4
+          },
+          {
+            "x": "Nd",
+            "y": -0.3
+          },
+          {
+            "x": "Sm",
+            "y": -0.1
+          },
+          {
+            "x": "Eu",
+            "y": 0.0
+          },
+          {
+            "x": "Gd",
+            "y": 0.1
+          },
+          {
+            "x": "Tb",
+            "y": 0.3
+          },
+          {
+            "x": "Dy",
+            "y": 0.5
+          },
+          {
+            "x": "Ho",
+            "y": 0.6
+          },
+          {
+            "x": "Er",
+            "y": 0.7
+          },
+          {
+            "x": "Tm",
+            "y": 0.8
+          },
+          {
+            "x": "Yb",
+            "y": 0.9
+          },
+          {
+            "x": "Lu",
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "name": "TODGA/DCE",
+        "marker": "square",
+        "color": "black",
+        "points": [
+          {
+            "x": "Y",
+            "y": -1.0
+          },
+          {
+            "x": "La",
+            "y": -1.1
+          },
+          {
+            "x": "Ce",
+            "y": -1.0
+          },
+          {
+            "x": "Pr",
+            "y": -0.9
+          },
+          {
+            "x": "Nd",
+            "y": -0.8
+          },
+          {
+            "x": "Sm",
+            "y": -0.5
+          },
+          {
+            "x": "Eu",
+            "y": -0.4
+          },
+          {
+            "x": "Gd",
+            "y": -0.2
+          },
+          {
+            "x": "Tb",
+            "y": 0.1
+          },
+          {
+            "x": "Dy",
+            "y": 0.3
+          },
+          {
+            "x": "Ho",
+            "y": 0.5
+          },
+          {
+            "x": "Er",
+            "y": 0.6
+          },
+          {
+            "x": "Tm",
+            "y": 0.8
+          },
+          {
+            "x": "Yb",
+            "y": 1.0
+          },
+          {
+            "x": "Lu",
+            "y": 1.2
+          }
+        ]
+      }
+    ]
+  },
+  "special_additions": {
+    "error_bars": null,
+    "trendline": null,
+    "annotations": [],
+    "reference_line": null
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "chart_type": "unknown",
+  "panel": "b",
+  "confidence": "MEDIUM",
+  "filename": "page8_figure8.png",
+  "description": "Panel (b) displays a temperature (\u00b0C) vs. concentration (wt%) binary phase diagram for a DES system, showing three regions: Solid (lower-left), Liquid (upper region), and the two-phase Solid\u2013Liquid boundary curve. Annotated points include T_melt(A), T_melt(B), T_eutectic, and the eutectic composition. The diagram illustrates the thermodynamic basis for DES formation and cannot be fully digitised without higher-resolution data.",
+  "notes": "Qualitative phase diagram \u2014 key features recorded as annotations"
+}

@@ -1,0 +1,31 @@
+{
+  "filename": "page5_figure6.png",
+  "total_panels": 4,
+  "layout": "2x2",
+  "panels": [
+    {
+      "panel": "a-top",
+      "chart_type": "scatter_line",
+      "output_file": "page5_figure6_panel_at_data.json",
+      "confidence": "MEDIUM"
+    },
+    {
+      "panel": "a-bottom",
+      "chart_type": "scatter_line",
+      "output_file": "page5_figure6_panel_ab_data.json",
+      "confidence": "MEDIUM"
+    },
+    {
+      "panel": "b-top",
+      "chart_type": "scatter_line",
+      "output_file": "page5_figure6_panel_bt_data.json",
+      "confidence": "MEDIUM"
+    },
+    {
+      "panel": "b-bottom",
+      "chart_type": "scatter_line",
+      "output_file": "page5_figure6_panel_bb_data.json",
+      "confidence": "MEDIUM"
+    }
+  ]
+}

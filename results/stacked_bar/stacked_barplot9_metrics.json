@@ -1,0 +1,49 @@
+{
+  "figure": "stacked_barplot9",
+  "chart_type": "stacked_bar",
+  "validation_errors": [],
+  "metrics": {
+    "per_series": {
+      "Extracted": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 5
+      },
+      "Co-extracted": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 5
+      },
+      "Scrubbed": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 5
+      },
+      "Stripped": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 5
+      }
+    },
+    "overall": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "MAPE": 0.0,
+      "R_squared": 1.0,
+      "RMS_relative_mapping_score": 0.0,
+      "n_points": 20
+    }
+  }
+}

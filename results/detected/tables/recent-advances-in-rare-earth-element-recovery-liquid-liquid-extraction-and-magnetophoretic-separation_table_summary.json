@@ -1,0 +1,26 @@
+{
+  "pdf": "recent-advances-in-rare-earth-element-recovery-liquid-liquid-extraction-and-magnetophoretic-separation.pdf",
+  "total_tables_detected": 1,
+  "padding_px": 25,
+  "tables": [
+    {
+      "filename": "recent-advances-in-rare-earth-element-recovery-liquid-liquid-extraction-and-magnetophoretic-separation_page1_table2.png",
+      "page": 1,
+      "table_index": 2,
+      "bbox": [
+        314.1246744791667,
+        675.599494934082,
+        555.3620056152344,
+        735.4850667317709
+      ],
+      "bbox_padded": [
+        289.1246744791667,
+        650.599494934082,
+        580.3620056152344,
+        760.4850667317709
+      ],
+      "width_px": 361,
+      "height_px": 89
+    }
+  ]
+}

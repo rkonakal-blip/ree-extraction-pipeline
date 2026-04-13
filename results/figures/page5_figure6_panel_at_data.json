@@ -1,0 +1,182 @@
+{
+  "chart_type": "scatter_line",
+  "panel": "a-top",
+  "confidence": "MEDIUM",
+  "figure_metadata": {
+    "title": "Distribution ratio vs NaCl+LiCl concentration (panel a, top)",
+    "notes": "Figure 5a: Co, La, Ni vs chloride salt concentration"
+  },
+  "axes": {
+    "x": {
+      "label": "Chloride (mol/L)",
+      "unit": "mol/L",
+      "scale": "linear",
+      "range": [
+        0,
+        4
+      ],
+      "ticks": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "y": {
+      "label": "log D",
+      "unit": null,
+      "scale": "linear",
+      "range": [
+        -2,
+        2
+      ],
+      "ticks": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Co",
+        "marker": "triangle",
+        "color": "black",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5
+          },
+          {
+            "x": 0.5,
+            "y": -1.2
+          },
+          {
+            "x": 1.0,
+            "y": -0.8
+          },
+          {
+            "x": 1.5,
+            "y": -0.3
+          },
+          {
+            "x": 2.0,
+            "y": 0.2
+          },
+          {
+            "x": 2.5,
+            "y": 0.6
+          },
+          {
+            "x": 3.0,
+            "y": 0.9
+          },
+          {
+            "x": 3.5,
+            "y": 1.1
+          },
+          {
+            "x": 4.0,
+            "y": 1.3
+          }
+        ]
+      },
+      {
+        "name": "La",
+        "marker": "square",
+        "color": "red",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.8
+          },
+          {
+            "x": 0.5,
+            "y": -1.5
+          },
+          {
+            "x": 1.0,
+            "y": -1.1
+          },
+          {
+            "x": 1.5,
+            "y": -0.7
+          },
+          {
+            "x": 2.0,
+            "y": -0.2
+          },
+          {
+            "x": 2.5,
+            "y": 0.2
+          },
+          {
+            "x": 3.0,
+            "y": 0.6
+          },
+          {
+            "x": 3.5,
+            "y": 0.9
+          },
+          {
+            "x": 4.0,
+            "y": 1.1
+          }
+        ]
+      },
+      {
+        "name": "Ni",
+        "marker": "circle",
+        "color": "blue",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -2.0
+          },
+          {
+            "x": 0.5,
+            "y": -1.8
+          },
+          {
+            "x": 1.0,
+            "y": -1.5
+          },
+          {
+            "x": 1.5,
+            "y": -1.2
+          },
+          {
+            "x": 2.0,
+            "y": -0.8
+          },
+          {
+            "x": 2.5,
+            "y": -0.4
+          },
+          {
+            "x": 3.0,
+            "y": 0.0
+          },
+          {
+            "x": 3.5,
+            "y": 0.3
+          },
+          {
+            "x": 4.0,
+            "y": 0.6
+          }
+        ]
+      }
+    ]
+  },
+  "special_additions": {
+    "error_bars": null,
+    "trendline": null,
+    "annotations": [],
+    "reference_line": null
+  }
+}

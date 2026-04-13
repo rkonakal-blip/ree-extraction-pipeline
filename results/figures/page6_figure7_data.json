@@ -1,0 +1,108 @@
+{
+  "chart_type": "bar_grouped",
+  "figure_metadata": {
+    "title": "Effect of C\u2084MIMCl vs C\u2082MIMCl ionic liquids on REE extraction",
+    "orientation": "vertical",
+    "notes": "Black bars = extraction with IL present; white bars = without IL (control). Error bars shown on all bars."
+  },
+  "axes": {
+    "category": {
+      "label": "Ionic Liquid",
+      "unit": null,
+      "categories": [
+        "C\u2084MIMCl",
+        "C\u2082MIMCl"
+      ]
+    },
+    "value": {
+      "label": "%E (Extraction Efficiency)",
+      "unit": "%",
+      "scale": "linear",
+      "range": [
+        0,
+        100
+      ],
+      "ticks": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ]
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "With IL (filled)",
+        "color": "black",
+        "bars": [
+          {
+            "category": "C\u2084MIMCl",
+            "value": 100.0,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "C\u2082MIMCl",
+            "value": 97.0,
+            "cumulative_bottom": null
+          }
+        ]
+      },
+      {
+        "name": "Without IL / control (open)",
+        "color": "white",
+        "bars": [
+          {
+            "category": "C\u2084MIMCl",
+            "value": 33.0,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "C\u2082MIMCl",
+            "value": 5.0,
+            "cumulative_bottom": null
+          }
+        ]
+      }
+    ]
+  },
+  "special_additions": {
+    "error_bars": [
+      {
+        "series_name": "With IL (filled)",
+        "values": [
+          {
+            "category": "C\u2084MIMCl",
+            "error_plus": 2.0,
+            "error_minus": 2.0
+          },
+          {
+            "category": "C\u2082MIMCl",
+            "error_plus": 2.0,
+            "error_minus": 2.0
+          }
+        ]
+      },
+      {
+        "series_name": "Without IL / control (open)",
+        "values": [
+          {
+            "category": "C\u2084MIMCl",
+            "error_plus": 3.0,
+            "error_minus": 3.0
+          },
+          {
+            "category": "C\u2082MIMCl",
+            "error_plus": 1.5,
+            "error_minus": 1.5
+          }
+        ]
+      }
+    ],
+    "annotations": [],
+    "reference_line": null
+  },
+  "confidence": "HIGH"
+}

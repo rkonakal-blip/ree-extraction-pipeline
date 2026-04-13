@@ -1,0 +1,31 @@
+{
+  "title": "Effect of A:O Ratio on Distribution of Sm",
+  "x_label": "A:O Ratio",
+  "y_label": "Distribution Ratio (D)",
+  "y_axis_range": [
+    0,
+    20
+  ],
+  "bars": [
+    {
+      "label": "1:3",
+      "value": 11.2,
+      "error": null
+    },
+    {
+      "label": "1:1",
+      "value": 9.1,
+      "error": null
+    },
+    {
+      "label": "2:1",
+      "value": 12.74,
+      "error": null
+    },
+    {
+      "label": "3:1",
+      "value": 3.9,
+      "error": null
+    }
+  ]
+}

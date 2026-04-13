@@ -1,0 +1,57 @@
+{
+  "figure": "grouped_barplot8",
+  "chart_type": "grouped_bar",
+  "validation_errors": [],
+  "metrics": {
+    "per_series": {
+      "La": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 3
+      },
+      "Ce": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 3
+      },
+      "Nd": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 3
+      },
+      "Pr": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 3
+      },
+      "Sm": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 3
+      }
+    },
+    "overall": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "MAPE": 0.0,
+      "R_squared": 1.0,
+      "RMS_relative_mapping_score": 0.0,
+      "n_points": 15
+    }
+  }
+}

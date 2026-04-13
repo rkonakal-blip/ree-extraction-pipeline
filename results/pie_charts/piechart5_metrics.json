@@ -1,0 +1,25 @@
+{
+  "figure": "piechart5",
+  "chart_type": "pie_chart",
+  "validation_errors": [],
+  "metrics": {
+    "per_series": {
+      "slices": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 5
+      }
+    },
+    "overall": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "MAPE": 0.0,
+      "R_squared": 1.0,
+      "RMS_relative_mapping_score": 0.0,
+      "n_points": 5
+    }
+  }
+}

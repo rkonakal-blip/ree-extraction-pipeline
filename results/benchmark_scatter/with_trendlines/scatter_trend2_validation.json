@@ -1,0 +1,69 @@
+{
+  "chart_type": "scatter_line",
+  "filename": "scatter_trend2.png",
+  "series_alignment": [
+    {
+      "extracted_name": "La",
+      "gt_name": "La",
+      "match_type": "exact"
+    },
+    {
+      "extracted_name": "Nd",
+      "gt_name": "Nd",
+      "match_type": "exact"
+    }
+  ],
+  "axis_match": {
+    "x_label": true,
+    "x_unit": true,
+    "x_scale": true,
+    "y_label": true,
+    "y_unit": true,
+    "y_scale": true
+  },
+  "metrics_per_series": [
+    {
+      "mae": 0.029,
+      "rmse": 0.0342,
+      "mape": 0.7,
+      "r2": 0.9999,
+      "rms_score": 0.997,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "series_name": "La"
+    },
+    {
+      "mae": 0.029,
+      "rmse": 0.0327,
+      "mape": 0.51,
+      "r2": 0.9998,
+      "rms_score": 0.9951,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "series_name": "Nd"
+    }
+  ],
+  "overall": {
+    "mae": 0.029,
+    "rmse": 0.0335,
+    "mape": 0.605,
+    "r2": 0.9999,
+    "rms_score": 0.996,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "error_categories": {
+    "missing_series": 0,
+    "extra_series": 0,
+    "axis_error": 0,
+    "value_error": 0,
+    "missing_points": 0,
+    "hallucinated_points": 0
+  },
+  "overall_confidence": 0.9976,
+  "recommended_action": "accept",
+  "summary": "scatter_trend2: 2 series, RMS=0.996, R\u00b2=0.9999, action=accept"
+}

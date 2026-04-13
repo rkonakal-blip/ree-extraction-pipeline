@@ -1,0 +1,85 @@
+{
+  "chart_type": "scatter_line",
+  "filename": "scatter_trend7.png",
+  "series_alignment": [
+    {
+      "extracted_name": "D2EHPA",
+      "gt_name": "D2EHPA",
+      "match_type": "exact"
+    },
+    {
+      "extracted_name": "Cyanex 272",
+      "gt_name": "Cyanex 272",
+      "match_type": "exact"
+    },
+    {
+      "extracted_name": "PC88A",
+      "gt_name": "PC88A",
+      "match_type": "exact"
+    }
+  ],
+  "axis_match": {
+    "x_label": true,
+    "x_unit": true,
+    "x_scale": true,
+    "y_label": true,
+    "y_unit": true,
+    "y_scale": true
+  },
+  "metrics_per_series": [
+    {
+      "mae": 0.0188,
+      "rmse": 0.0237,
+      "mape": 0.15,
+      "r2": 0.9999,
+      "rms_score": 0.9979,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "series_name": "D2EHPA"
+    },
+    {
+      "mae": 0.0275,
+      "rmse": 0.03,
+      "mape": 0.21,
+      "r2": 0.9999,
+      "rms_score": 0.9969,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "series_name": "Cyanex 272"
+    },
+    {
+      "mae": 0.0225,
+      "rmse": 0.026,
+      "mape": 0.18,
+      "r2": 0.9998,
+      "rms_score": 0.9965,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "series_name": "PC88A"
+    }
+  ],
+  "overall": {
+    "mae": 0.0229,
+    "rmse": 0.0266,
+    "mape": 0.18,
+    "r2": 0.9999,
+    "rms_score": 0.9971,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "error_categories": {
+    "missing_series": 0,
+    "extra_series": 0,
+    "axis_error": 0,
+    "value_error": 0,
+    "missing_points": 0,
+    "hallucinated_points": 0
+  },
+  "overall_confidence": 0.9982,
+  "recommended_action": "accept",
+  "summary": "scatter_trend7: 3 series, RMS=0.9971, R\u00b2=0.9999, action=accept"
+}

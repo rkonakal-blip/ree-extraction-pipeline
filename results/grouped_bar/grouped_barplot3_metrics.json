@@ -1,0 +1,49 @@
+{
+  "figure": "grouped_barplot3",
+  "chart_type": "grouped_bar",
+  "validation_errors": [],
+  "metrics": {
+    "per_series": {
+      "0.1M extractant": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 3
+      },
+      "0.5M extractant": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 3
+      },
+      "1.0M extractant": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 3
+      },
+      "2.0M extractant": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 3
+      }
+    },
+    "overall": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "MAPE": 0.0,
+      "R_squared": 1.0,
+      "RMS_relative_mapping_score": 0.0,
+      "n_points": 12
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "figure": "contour2",
+  "chart_type": "contour_map",
+  "validation_errors": [],
+  "metrics": {
+    "per_series": {
+      "contour_levels": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAPE": 0.0,
+        "R_squared": 1.0,
+        "RMS_relative_mapping_score": 0.0,
+        "n_points": 14
+      }
+    },
+    "overall": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "MAPE": 0.0,
+      "R_squared": 1.0,
+      "RMS_relative_mapping_score": 0.0,
+      "n_points": 19
+    }
+  }
+}

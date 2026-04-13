@@ -1,0 +1,37 @@
+{
+  "title": "Composition of Leachate After Acid Digestion",
+  "start_angle": 90,
+  "slices": [
+    {
+      "label": "La",
+      "value": 14.2,
+      "percentage": 14.2
+    },
+    {
+      "label": "Ce",
+      "value": 22.5,
+      "percentage": 22.5
+    },
+    {
+      "label": "Nd",
+      "value": 22.0,
+      "percentage": 22.0
+    },
+    {
+      "label": "Pr",
+      "value": 8.9,
+      "percentage": 8.9
+    },
+    {
+      "label": "Sm",
+      "value": 17.0,
+      "percentage": 17.0
+    },
+    {
+      "label": "Others",
+      "value": 15.4,
+      "percentage": 15.4
+    }
+  ],
+  "total": 100.0
+}

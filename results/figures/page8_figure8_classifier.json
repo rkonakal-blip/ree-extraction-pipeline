@@ -1,0 +1,17 @@
+{
+  "chart_type": "multipanel",
+  "is_mixed": false,
+  "is_multipanel": true,
+  "panels": [
+    {
+      "label": "a",
+      "chart_type": "unknown"
+    },
+    {
+      "label": "b",
+      "chart_type": "unknown"
+    }
+  ],
+  "special_additions": [],
+  "confidence": "MEDIUM"
+}

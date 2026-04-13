@@ -1,0 +1,93 @@
+{
+  "figures": [
+    {
+      "filename": "page1_figure1.png",
+      "page": 1,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page1_figure1.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page2_figure2.png",
+      "page": 2,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page2_figure2.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page2_figure3.png",
+      "page": 2,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page2_figure3.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page3_figure4.png",
+      "page": 3,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page3_figure4.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page3_figure5.png",
+      "page": 3,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page3_figure5.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page5_figure6.png",
+      "page": 5,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page5_figure6.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page6_figure7.png",
+      "page": 6,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page6_figure7.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page8_figure8.png",
+      "page": 8,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page8_figure8.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page9_figure9.png",
+      "page": 9,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page9_figure9.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page9_figure10.png",
+      "page": 9,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page9_figure10.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    },
+    {
+      "filename": "page11_figure11.png",
+      "page": 11,
+      "path": "C:\\Users\\Rithika\\Desktop\\ree-extraction-pipeline\\results\\detected\\figures\\page11_figure11.png",
+      "status": "pending",
+      "chart_type": "unknown",
+      "notes": ""
+    }
+  ],
+  "extraction_routes": {}
+}

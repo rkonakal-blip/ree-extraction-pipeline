@@ -1,0 +1,2523 @@
+{
+  "source": "benchmark/scatter_plots/with_trendlines",
+  "extract_type": "plots",
+  "total_figures": 10,
+  "total_tables": 0,
+  "figures": [
+    {
+      "filename": "scatter_trend1.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "Effect of pH on REE Extraction with Linear Fitting",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "pH",
+            "unit": null,
+            "scale": "linear",
+            "range": [
+              1.0,
+              5.0
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Extraction Efficiency (%)",
+            "unit": "%",
+            "scale": "linear",
+            "range": [
+              0,
+              100
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "D2EHPA",
+              "marker": "circle",
+              "color": "D2EHPA",
+              "points": [
+                {
+                  "x": 1.04,
+                  "y": 44.0
+                },
+                {
+                  "x": 1.55,
+                  "y": 42.0
+                },
+                {
+                  "x": 2.15,
+                  "y": 51.0
+                },
+                {
+                  "x": 2.65,
+                  "y": 53.5
+                },
+                {
+                  "x": 3.32,
+                  "y": 64.0
+                },
+                {
+                  "x": 3.81,
+                  "y": 79.0
+                },
+                {
+                  "x": 4.45,
+                  "y": 83.0
+                },
+                {
+                  "x": 5.0,
+                  "y": 91.0
+                }
+              ]
+            },
+            {
+              "name": "Cyanex 272",
+              "marker": "circle",
+              "color": "Cyanex 272",
+              "points": [
+                {
+                  "x": 1.02,
+                  "y": 43.0
+                },
+                {
+                  "x": 1.53,
+                  "y": 54.0
+                },
+                {
+                  "x": 2.07,
+                  "y": 60.0
+                },
+                {
+                  "x": 2.71,
+                  "y": 57.0
+                },
+                {
+                  "x": 3.26,
+                  "y": 71.0
+                },
+                {
+                  "x": 3.89,
+                  "y": 64.0
+                },
+                {
+                  "x": 4.41,
+                  "y": 75.0
+                },
+                {
+                  "x": 4.94,
+                  "y": 77.0
+                }
+              ]
+            },
+            {
+              "name": "PC88A",
+              "marker": "circle",
+              "color": "PC88A",
+              "points": [
+                {
+                  "x": 1.03,
+                  "y": 26.0
+                },
+                {
+                  "x": 1.55,
+                  "y": 46.0
+                },
+                {
+                  "x": 2.08,
+                  "y": 36.0
+                },
+                {
+                  "x": 2.72,
+                  "y": 49.0
+                },
+                {
+                  "x": 3.33,
+                  "y": 60.0
+                },
+                {
+                  "x": 3.78,
+                  "y": 65.0
+                },
+                {
+                  "x": 4.36,
+                  "y": 77.0
+                },
+                {
+                  "x": 5.0,
+                  "y": 80.0
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": [
+            {
+              "series_name": "D2EHPA",
+              "coefficients": [
+                13.1,
+                24.2
+              ],
+              "r_squared": 0.95
+            },
+            {
+              "series_name": "Cyanex 272",
+              "coefficients": [
+                7.7,
+                39.6
+              ],
+              "r_squared": 0.85
+            },
+            {
+              "series_name": "PC88A",
+              "coefficients": [
+                13.4,
+                14.9
+              ],
+              "r_squared": 0.93
+            }
+          ],
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "filename": "scatter_trend2.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "Distribution Ratio vs Extractant Concentration",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "Extractant Concentration (M)",
+            "unit": "M",
+            "scale": "linear",
+            "range": [
+              0.0,
+              2.0
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Distribution Ratio (D)",
+            "unit": null,
+            "scale": "linear",
+            "range": [
+              0,
+              15
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "La",
+              "marker": "circle",
+              "color": "La",
+              "points": [
+                {
+                  "x": 0.05,
+                  "y": 1.9
+                },
+                {
+                  "x": 0.27,
+                  "y": 2.2
+                },
+                {
+                  "x": 0.47,
+                  "y": 4.4
+                },
+                {
+                  "x": 0.73,
+                  "y": 4.8
+                },
+                {
+                  "x": 0.92,
+                  "y": 6.4
+                },
+                {
+                  "x": 1.13,
+                  "y": 8.2
+                },
+                {
+                  "x": 1.38,
+                  "y": 9.2
+                },
+                {
+                  "x": 1.6,
+                  "y": 10.7
+                },
+                {
+                  "x": 1.77,
+                  "y": 11.1
+                },
+                {
+                  "x": 2.0,
+                  "y": 11.5
+                }
+              ]
+            },
+            {
+              "name": "Nd",
+              "marker": "circle",
+              "color": "Nd",
+              "points": [
+                {
+                  "x": 0.07,
+                  "y": 3.2
+                },
+                {
+                  "x": 0.25,
+                  "y": 3.0
+                },
+                {
+                  "x": 0.49,
+                  "y": 4.1
+                },
+                {
+                  "x": 0.71,
+                  "y": 5.0
+                },
+                {
+                  "x": 0.92,
+                  "y": 6.2
+                },
+                {
+                  "x": 1.15,
+                  "y": 6.9
+                },
+                {
+                  "x": 1.34,
+                  "y": 7.3
+                },
+                {
+                  "x": 1.55,
+                  "y": 8.3
+                },
+                {
+                  "x": 1.81,
+                  "y": 8.9
+                },
+                {
+                  "x": 2.0,
+                  "y": 8.9
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": [
+            {
+              "series_name": "La",
+              "coefficients": [
+                5.4,
+                1.4
+              ],
+              "r_squared": 0.98
+            },
+            {
+              "series_name": "Nd",
+              "coefficients": [
+                3.4,
+                2.7
+              ],
+              "r_squared": 0.97
+            }
+          ],
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "filename": "scatter_trend3.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "Temperature Effect on REE Extraction Efficiency",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "Temperature (°C)",
+            "unit": "°C",
+            "scale": "linear",
+            "range": [
+              20,
+              70
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Extraction Efficiency (%)",
+            "unit": "%",
+            "scale": "linear",
+            "range": [
+              30,
+              100
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "La",
+              "marker": "circle",
+              "color": "La",
+              "points": [
+                {
+                  "x": 20.0,
+                  "y": 46.0
+                },
+                {
+                  "x": 28.5,
+                  "y": 50.0
+                },
+                {
+                  "x": 37.0,
+                  "y": 64.0
+                },
+                {
+                  "x": 44.7,
+                  "y": 69.0
+                },
+                {
+                  "x": 52.9,
+                  "y": 76.0
+                },
+                {
+                  "x": 61.8,
+                  "y": 79.0
+                },
+                {
+                  "x": 70.0,
+                  "y": 86.0
+                }
+              ]
+            },
+            {
+              "name": "Ce",
+              "marker": "circle",
+              "color": "Ce",
+              "points": [
+                {
+                  "x": 20.0,
+                  "y": 62.0
+                },
+                {
+                  "x": 27.8,
+                  "y": 67.0
+                },
+                {
+                  "x": 36.8,
+                  "y": 66.0
+                },
+                {
+                  "x": 44.1,
+                  "y": 77.0
+                },
+                {
+                  "x": 53.9,
+                  "y": 74.0
+                },
+                {
+                  "x": 60.8,
+                  "y": 84.0
+                },
+                {
+                  "x": 70.0,
+                  "y": 87.0
+                }
+              ]
+            },
+            {
+              "name": "Nd",
+              "marker": "circle",
+              "color": "Nd",
+              "points": [
+                {
+                  "x": 20.0,
+                  "y": 50.0
+                },
+                {
+                  "x": 27.8,
+                  "y": 56.0
+                },
+                {
+                  "x": 37.3,
+                  "y": 66.0
+                },
+                {
+                  "x": 45.1,
+                  "y": 82.0
+                },
+                {
+                  "x": 53.3,
+                  "y": 85.0
+                },
+                {
+                  "x": 62.3,
+                  "y": 90.0
+                },
+                {
+                  "x": 69.2,
+                  "y": 90.0
+                }
+              ]
+            },
+            {
+              "name": "Pr",
+              "marker": "circle",
+              "color": "Pr",
+              "points": [
+                {
+                  "x": 20.5,
+                  "y": 60.0
+                },
+                {
+                  "x": 29.1,
+                  "y": 65.0
+                },
+                {
+                  "x": 37.4,
+                  "y": 75.0
+                },
+                {
+                  "x": 44.9,
+                  "y": 71.0
+                },
+                {
+                  "x": 53.3,
+                  "y": 70.0
+                },
+                {
+                  "x": 62.3,
+                  "y": 79.0
+                },
+                {
+                  "x": 70.0,
+                  "y": 85.0
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": null,
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "filename": "scatter_trend4.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "Stripping Efficiency vs HCl Concentration",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "HCl Concentration (M)",
+            "unit": "M",
+            "scale": "linear",
+            "range": [
+              0.5,
+              4.0
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Stripping Efficiency (%)",
+            "unit": "%",
+            "scale": "linear",
+            "range": [
+              20,
+              100
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "D2EHPA",
+              "marker": "circle",
+              "color": "D2EHPA",
+              "points": [
+                {
+                  "x": 0.52,
+                  "y": 35.0
+                },
+                {
+                  "x": 0.92,
+                  "y": 41.0
+                },
+                {
+                  "x": 1.43,
+                  "y": 41.0
+                },
+                {
+                  "x": 1.78,
+                  "y": 46.0
+                },
+                {
+                  "x": 2.19,
+                  "y": 62.0
+                },
+                {
+                  "x": 2.75,
+                  "y": 72.0
+                },
+                {
+                  "x": 3.12,
+                  "y": 79.0
+                },
+                {
+                  "x": 3.49,
+                  "y": 81.0
+                },
+                {
+                  "x": 4.0,
+                  "y": 80.0
+                }
+              ]
+            },
+            {
+              "name": "PC88A",
+              "marker": "circle",
+              "color": "PC88A",
+              "points": [
+                {
+                  "x": 0.57,
+                  "y": 46.0
+                },
+                {
+                  "x": 0.99,
+                  "y": 42.0
+                },
+                {
+                  "x": 1.41,
+                  "y": 55.0
+                },
+                {
+                  "x": 1.79,
+                  "y": 57.0
+                },
+                {
+                  "x": 2.22,
+                  "y": 62.0
+                },
+                {
+                  "x": 2.62,
+                  "y": 64.0
+                },
+                {
+                  "x": 3.08,
+                  "y": 70.0
+                },
+                {
+                  "x": 3.61,
+                  "y": 80.0
+                },
+                {
+                  "x": 3.95,
+                  "y": 83.0
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": [
+            {
+              "series_name": "D2EHPA",
+              "coefficients": [
+                15.4,
+                25.0
+              ],
+              "r_squared": 0.93
+            },
+            {
+              "series_name": "PC88A",
+              "coefficients": [
+                11.6,
+                36.1
+              ],
+              "r_squared": 0.96
+            }
+          ],
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "filename": "scatter_trend5.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "REE Recovery vs Contact Time",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "Contact Time (min)",
+            "unit": "min",
+            "scale": "linear",
+            "range": [
+              5,
+              60
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Recovery (%)",
+            "unit": "%",
+            "scale": "linear",
+            "range": [
+              40,
+              100
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "D2EHPA",
+              "marker": "circle",
+              "color": "D2EHPA",
+              "points": [
+                {
+                  "x": 5.4,
+                  "y": 57.0
+                },
+                {
+                  "x": 12.4,
+                  "y": 63.0
+                },
+                {
+                  "x": 20.0,
+                  "y": 63.0
+                },
+                {
+                  "x": 28.1,
+                  "y": 70.0
+                },
+                {
+                  "x": 35.6,
+                  "y": 70.0
+                },
+                {
+                  "x": 43.4,
+                  "y": 78.0
+                },
+                {
+                  "x": 52.7,
+                  "y": 84.0
+                },
+                {
+                  "x": 59.4,
+                  "y": 90.0
+                }
+              ]
+            },
+            {
+              "name": "Cyanex 272",
+              "marker": "circle",
+              "color": "Cyanex 272",
+              "points": [
+                {
+                  "x": 5.3,
+                  "y": 56.0
+                },
+                {
+                  "x": 13.7,
+                  "y": 64.0
+                },
+                {
+                  "x": 20.2,
+                  "y": 64.0
+                },
+                {
+                  "x": 29.1,
+                  "y": 71.0
+                },
+                {
+                  "x": 37.1,
+                  "y": 78.0
+                },
+                {
+                  "x": 43.4,
+                  "y": 78.0
+                },
+                {
+                  "x": 52.3,
+                  "y": 80.0
+                },
+                {
+                  "x": 59.1,
+                  "y": 82.0
+                }
+              ]
+            },
+            {
+              "name": "PC88A",
+              "marker": "circle",
+              "color": "PC88A",
+              "points": [
+                {
+                  "x": 5.0,
+                  "y": 47.0
+                },
+                {
+                  "x": 12.4,
+                  "y": 50.0
+                },
+                {
+                  "x": 20.0,
+                  "y": 61.0
+                },
+                {
+                  "x": 28.9,
+                  "y": 66.0
+                },
+                {
+                  "x": 35.7,
+                  "y": 76.0
+                },
+                {
+                  "x": 43.9,
+                  "y": 83.0
+                },
+                {
+                  "x": 53.0,
+                  "y": 90.0
+                },
+                {
+                  "x": 59.7,
+                  "y": 100.0
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": null,
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "filename": "scatter_trend6.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "Polynomial Fit of Extraction Efficiency vs pH",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "pH",
+            "unit": null,
+            "scale": "linear",
+            "range": [
+              1.0,
+              5.0
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Extraction Efficiency (%)",
+            "unit": "%",
+            "scale": "linear",
+            "range": [
+              0,
+              100
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "La",
+              "marker": "circle",
+              "color": "La",
+              "points": [
+                {
+                  "x": 1.07,
+                  "y": 42.0
+                },
+                {
+                  "x": 1.45,
+                  "y": 54.0
+                },
+                {
+                  "x": 1.87,
+                  "y": 64.0
+                },
+                {
+                  "x": 2.38,
+                  "y": 79.0
+                },
+                {
+                  "x": 2.72,
+                  "y": 82.0
+                },
+                {
+                  "x": 3.27,
+                  "y": 89.0
+                },
+                {
+                  "x": 3.69,
+                  "y": 88.0
+                },
+                {
+                  "x": 4.12,
+                  "y": 81.0
+                },
+                {
+                  "x": 4.61,
+                  "y": 75.0
+                },
+                {
+                  "x": 5.0,
+                  "y": 62.0
+                }
+              ]
+            },
+            {
+              "name": "Nd",
+              "marker": "circle",
+              "color": "Nd",
+              "points": [
+                {
+                  "x": 1.03,
+                  "y": 44.0
+                },
+                {
+                  "x": 1.41,
+                  "y": 58.0
+                },
+                {
+                  "x": 1.87,
+                  "y": 65.0
+                },
+                {
+                  "x": 2.37,
+                  "y": 77.0
+                },
+                {
+                  "x": 2.76,
+                  "y": 84.0
+                },
+                {
+                  "x": 3.15,
+                  "y": 87.0
+                },
+                {
+                  "x": 3.61,
+                  "y": 91.0
+                },
+                {
+                  "x": 4.1,
+                  "y": 93.0
+                },
+                {
+                  "x": 4.59,
+                  "y": 90.0
+                },
+                {
+                  "x": 4.94,
+                  "y": 73.0
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": [
+            {
+              "series_name": "La",
+              "coefficients": [
+                -9.0,
+                60.4,
+                -14.5
+              ],
+              "r_squared": 0.99
+            },
+            {
+              "series_name": "Nd",
+              "coefficients": [
+                -6.8,
+                50.1,
+                -1.6
+              ],
+              "r_squared": 0.96
+            }
+          ],
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "filename": "scatter_trend7.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "Distribution Ratio vs Temperature (Polynomial Fit)",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "Temperature (°C)",
+            "unit": "°C",
+            "scale": "linear",
+            "range": [
+              20,
+              70
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Distribution Ratio (D)",
+            "unit": null,
+            "scale": "linear",
+            "range": [
+              0,
+              20
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "D2EHPA",
+              "marker": "circle",
+              "color": "D2EHPA",
+              "points": [
+                {
+                  "x": 20.7,
+                  "y": 8.1
+                },
+                {
+                  "x": 27.2,
+                  "y": 9.5
+                },
+                {
+                  "x": 33.7,
+                  "y": 11.7
+                },
+                {
+                  "x": 41.5,
+                  "y": 14.1
+                },
+                {
+                  "x": 49.3,
+                  "y": 16.7
+                },
+                {
+                  "x": 55.0,
+                  "y": 16.9
+                },
+                {
+                  "x": 62.4,
+                  "y": 15.6
+                },
+                {
+                  "x": 69.9,
+                  "y": 15.1
+                }
+              ]
+            },
+            {
+              "name": "Cyanex 272",
+              "marker": "circle",
+              "color": "Cyanex 272",
+              "points": [
+                {
+                  "x": 21.0,
+                  "y": 9.3
+                },
+                {
+                  "x": 27.3,
+                  "y": 9.6
+                },
+                {
+                  "x": 34.5,
+                  "y": 13.9
+                },
+                {
+                  "x": 41.9,
+                  "y": 13.8
+                },
+                {
+                  "x": 48.0,
+                  "y": 15.3
+                },
+                {
+                  "x": 56.2,
+                  "y": 16.6
+                },
+                {
+                  "x": 62.6,
+                  "y": 16.6
+                },
+                {
+                  "x": 70.0,
+                  "y": 18.1
+                }
+              ]
+            },
+            {
+              "name": "PC88A",
+              "marker": "circle",
+              "color": "PC88A",
+              "points": [
+                {
+                  "x": 20.6,
+                  "y": 9.0
+                },
+                {
+                  "x": 27.6,
+                  "y": 9.6
+                },
+                {
+                  "x": 34.4,
+                  "y": 13.0
+                },
+                {
+                  "x": 42.1,
+                  "y": 13.1
+                },
+                {
+                  "x": 49.0,
+                  "y": 11.9
+                },
+                {
+                  "x": 56.3,
+                  "y": 14.0
+                },
+                {
+                  "x": 63.6,
+                  "y": 14.3
+                },
+                {
+                  "x": 70.0,
+                  "y": 15.5
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": null,
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "filename": "scatter_trend8.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "Extraction Efficiency vs Extractant Concentration",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "Extractant Concentration (M)",
+            "unit": "M",
+            "scale": "linear",
+            "range": [
+              0.05,
+              2.0
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Extraction Efficiency (%)",
+            "unit": "%",
+            "scale": "linear",
+            "range": [
+              10,
+              100
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "La",
+              "marker": "circle",
+              "color": "La",
+              "points": [
+                {
+                  "x": 0.05,
+                  "y": 26.0
+                },
+                {
+                  "x": 0.32,
+                  "y": 39.0
+                },
+                {
+                  "x": 0.58,
+                  "y": 57.0
+                },
+                {
+                  "x": 0.78,
+                  "y": 61.0
+                },
+                {
+                  "x": 1.02,
+                  "y": 68.0
+                },
+                {
+                  "x": 1.25,
+                  "y": 80.0
+                },
+                {
+                  "x": 1.54,
+                  "y": 82.0
+                },
+                {
+                  "x": 1.79,
+                  "y": 89.0
+                },
+                {
+                  "x": 1.96,
+                  "y": 82.0
+                }
+              ]
+            },
+            {
+              "name": "Ce",
+              "marker": "circle",
+              "color": "Ce",
+              "points": [
+                {
+                  "x": 0.07,
+                  "y": 17.0
+                },
+                {
+                  "x": 0.3,
+                  "y": 42.0
+                },
+                {
+                  "x": 0.52,
+                  "y": 55.0
+                },
+                {
+                  "x": 0.81,
+                  "y": 70.0
+                },
+                {
+                  "x": 1.02,
+                  "y": 74.0
+                },
+                {
+                  "x": 1.24,
+                  "y": 76.0
+                },
+                {
+                  "x": 1.54,
+                  "y": 73.0
+                },
+                {
+                  "x": 1.77,
+                  "y": 77.0
+                },
+                {
+                  "x": 1.97,
+                  "y": 79.0
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": [
+            {
+              "series_name": "La",
+              "coefficients": [
+                -17.7,
+                67.0,
+                21.4
+              ],
+              "r_squared": 0.98
+            },
+            {
+              "series_name": "Ce",
+              "coefficients": [
+                -27.5,
+                83.7,
+                16.4
+              ],
+              "r_squared": 0.96
+            }
+          ],
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "filename": "scatter_trend9.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "REE Recovery Kinetics with Polynomial Fitting",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "Contact Time (min)",
+            "unit": "min",
+            "scale": "linear",
+            "range": [
+              5,
+              60
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Recovery (%)",
+            "unit": "%",
+            "scale": "linear",
+            "range": [
+              20,
+              100
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "La",
+              "marker": "circle",
+              "color": "La",
+              "points": [
+                {
+                  "x": 5.0,
+                  "y": 38.0
+                },
+                {
+                  "x": 15.0,
+                  "y": 48.0
+                },
+                {
+                  "x": 22.3,
+                  "y": 59.0
+                },
+                {
+                  "x": 33.3,
+                  "y": 71.0
+                },
+                {
+                  "x": 41.0,
+                  "y": 74.0
+                },
+                {
+                  "x": 50.3,
+                  "y": 77.0
+                },
+                {
+                  "x": 59.3,
+                  "y": 82.0
+                }
+              ]
+            },
+            {
+              "name": "Ce",
+              "marker": "circle",
+              "color": "Ce",
+              "points": [
+                {
+                  "x": 5.7,
+                  "y": 40.0
+                },
+                {
+                  "x": 14.9,
+                  "y": 51.0
+                },
+                {
+                  "x": 22.9,
+                  "y": 59.0
+                },
+                {
+                  "x": 31.5,
+                  "y": 65.0
+                },
+                {
+                  "x": 41.0,
+                  "y": 71.0
+                },
+                {
+                  "x": 50.3,
+                  "y": 73.0
+                },
+                {
+                  "x": 60.0,
+                  "y": 80.0
+                }
+              ]
+            },
+            {
+              "name": "Nd",
+              "marker": "circle",
+              "color": "Nd",
+              "points": [
+                {
+                  "x": 5.0,
+                  "y": 28.0
+                },
+                {
+                  "x": 13.8,
+                  "y": 41.0
+                },
+                {
+                  "x": 22.9,
+                  "y": 59.0
+                },
+                {
+                  "x": 32.8,
+                  "y": 72.0
+                },
+                {
+                  "x": 41.2,
+                  "y": 73.0
+                },
+                {
+                  "x": 50.0,
+                  "y": 74.0
+                },
+                {
+                  "x": 59.7,
+                  "y": 74.0
+                }
+              ]
+            },
+            {
+              "name": "Pr",
+              "marker": "circle",
+              "color": "Pr",
+              "points": [
+                {
+                  "x": 5.0,
+                  "y": 41.0
+                },
+                {
+                  "x": 15.1,
+                  "y": 48.0
+                },
+                {
+                  "x": 22.4,
+                  "y": 58.0
+                },
+                {
+                  "x": 32.0,
+                  "y": 61.0
+                },
+                {
+                  "x": 41.5,
+                  "y": 66.0
+                },
+                {
+                  "x": 50.7,
+                  "y": 76.0
+                },
+                {
+                  "x": 59.3,
+                  "y": 73.0
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": null,
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "filename": "scatter_trend10.png",
+      "page": null,
+      "chart_type": "scatter_line",
+      "confidence": "HIGH",
+      "data": {
+        "chart_type": "scatter_line",
+        "figure_metadata": {
+          "title": "Separation Factor vs pH for REE Pairs",
+          "notes": null
+        },
+        "axes": {
+          "x": {
+            "label": "pH",
+            "unit": null,
+            "scale": "linear",
+            "range": [
+              1.0,
+              5.0
+            ],
+            "ticks": []
+          },
+          "y": {
+            "label": "Separation Factor (α)",
+            "unit": null,
+            "scale": "linear",
+            "range": [
+              0,
+              5
+            ],
+            "ticks": []
+          }
+        },
+        "data": {
+          "series": [
+            {
+              "name": "D2EHPA",
+              "marker": "circle",
+              "color": "D2EHPA",
+              "points": [
+                {
+                  "x": 1.06,
+                  "y": 1.01
+                },
+                {
+                  "x": 1.59,
+                  "y": 1.71
+                },
+                {
+                  "x": 2.22,
+                  "y": 2.57
+                },
+                {
+                  "x": 2.77,
+                  "y": 3.36
+                },
+                {
+                  "x": 3.35,
+                  "y": 3.57
+                },
+                {
+                  "x": 3.92,
+                  "y": 3.52
+                },
+                {
+                  "x": 4.37,
+                  "y": 3.43
+                },
+                {
+                  "x": 5.0,
+                  "y": 3.46
+                }
+              ]
+            },
+            {
+              "name": "Cyanex 272",
+              "marker": "circle",
+              "color": "Cyanex 272",
+              "points": [
+                {
+                  "x": 1.06,
+                  "y": 1.07
+                },
+                {
+                  "x": 1.61,
+                  "y": 1.57
+                },
+                {
+                  "x": 2.07,
+                  "y": 2.44
+                },
+                {
+                  "x": 2.64,
+                  "y": 3.09
+                },
+                {
+                  "x": 3.26,
+                  "y": 2.96
+                },
+                {
+                  "x": 3.9,
+                  "y": 3.11
+                },
+                {
+                  "x": 4.46,
+                  "y": 3.06
+                },
+                {
+                  "x": 4.97,
+                  "y": 2.94
+                }
+              ]
+            },
+            {
+              "name": "PC88A",
+              "marker": "circle",
+              "color": "PC88A",
+              "points": [
+                {
+                  "x": 1.0,
+                  "y": 1.13
+                },
+                {
+                  "x": 1.6,
+                  "y": 1.55
+                },
+                {
+                  "x": 2.15,
+                  "y": 2.13
+                },
+                {
+                  "x": 2.77,
+                  "y": 3.19
+                },
+                {
+                  "x": 3.27,
+                  "y": 3.4
+                },
+                {
+                  "x": 3.88,
+                  "y": 3.76
+                },
+                {
+                  "x": 4.44,
+                  "y": 3.57
+                },
+                {
+                  "x": 4.97,
+                  "y": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        "special_additions": {
+          "error_bars": null,
+          "trendline": [
+            {
+              "series_name": "D2EHPA",
+              "coefficients": [
+                -0.304,
+                2.449,
+                -1.301
+              ],
+              "r_squared": 0.98
+            },
+            {
+              "series_name": "Cyanex 272",
+              "coefficients": [
+                -0.282,
+                2.164,
+                -0.947
+              ],
+              "r_squared": 0.96
+            },
+            {
+              "series_name": "PC88A",
+              "coefficients": [
+                -0.234,
+                2.07,
+                -0.94
+              ],
+              "r_squared": 0.96
+            }
+          ],
+          "annotations": null,
+          "reference_line": null
+        },
+        "confidence": "HIGH"
+      }
+    }
+  ],
+  "tables": [],
+  "failed": [],
+  "validation": [
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend1.png",
+      "series_alignment": [
+        {
+          "extracted_name": "D2EHPA",
+          "gt_name": "D2EHPA",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Cyanex 272",
+          "gt_name": "Cyanex 272",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "PC88A",
+          "gt_name": "PC88A",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.1462,
+          "rmse": 0.2008,
+          "mape": 0.22,
+          "r2": 0.9999,
+          "rms_score": 0.997,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "D2EHPA"
+        },
+        {
+          "mae": 0.3112,
+          "rmse": 0.3406,
+          "mape": 0.51,
+          "r2": 0.999,
+          "rms_score": 0.9909,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Cyanex 272"
+        },
+        {
+          "mae": 0.2625,
+          "rmse": 0.3073,
+          "mape": 0.59,
+          "r2": 0.9997,
+          "rms_score": 0.9952,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "PC88A"
+        }
+      ],
+      "overall": {
+        "mae": 0.24,
+        "rmse": 0.2829,
+        "mape": 0.44,
+        "r2": 0.9995,
+        "rms_score": 0.9944,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 0.9964,
+      "recommended_action": "accept",
+      "summary": "scatter_trend1: 3 series, RMS=0.9944, R²=0.9995, action=accept"
+    },
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend2.png",
+      "series_alignment": [
+        {
+          "extracted_name": "La",
+          "gt_name": "La",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Nd",
+          "gt_name": "Nd",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.029,
+          "rmse": 0.0342,
+          "mape": 0.7,
+          "r2": 0.9999,
+          "rms_score": 0.997,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "La"
+        },
+        {
+          "mae": 0.029,
+          "rmse": 0.0327,
+          "mape": 0.51,
+          "r2": 0.9998,
+          "rms_score": 0.9951,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Nd"
+        }
+      ],
+      "overall": {
+        "mae": 0.029,
+        "rmse": 0.0335,
+        "mape": 0.605,
+        "r2": 0.9999,
+        "rms_score": 0.996,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 0.9976,
+      "recommended_action": "accept",
+      "summary": "scatter_trend2: 2 series, RMS=0.996, R²=0.9999, action=accept"
+    },
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend3.png",
+      "series_alignment": [
+        {
+          "extracted_name": "La",
+          "gt_name": "La",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Ce",
+          "gt_name": "Ce",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Nd",
+          "gt_name": "Nd",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Pr",
+          "gt_name": "Pr",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.1614,
+          "rmse": 0.194,
+          "mape": 0.24,
+          "r2": 0.9998,
+          "rms_score": 0.996,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "La"
+        },
+        {
+          "mae": 0.2329,
+          "rmse": 0.2896,
+          "mape": 0.33,
+          "r2": 0.9989,
+          "rms_score": 0.9908,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Ce"
+        },
+        {
+          "mae": 0.2614,
+          "rmse": 0.3251,
+          "mape": 0.39,
+          "r2": 0.9996,
+          "rms_score": 0.9936,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Nd"
+        },
+        {
+          "mae": 0.2357,
+          "rmse": 0.2885,
+          "mape": 0.34,
+          "r2": 0.9987,
+          "rms_score": 0.9906,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Pr"
+        }
+      ],
+      "overall": {
+        "mae": 0.2228,
+        "rmse": 0.2743,
+        "mape": 0.325,
+        "r2": 0.9992,
+        "rms_score": 0.9928,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 0.9954,
+      "recommended_action": "accept",
+      "summary": "scatter_trend3: 4 series, RMS=0.9928, R²=0.9992, action=accept"
+    },
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend4.png",
+      "series_alignment": [
+        {
+          "extracted_name": "D2EHPA",
+          "gt_name": "D2EHPA",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "PC88A",
+          "gt_name": "PC88A",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.2767,
+          "rmse": 0.3117,
+          "mape": 0.5,
+          "r2": 0.9997,
+          "rms_score": 0.9939,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "D2EHPA"
+        },
+        {
+          "mae": 0.3878,
+          "rmse": 0.3985,
+          "mape": 0.64,
+          "r2": 0.9991,
+          "rms_score": 0.9904,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "PC88A"
+        }
+      ],
+      "overall": {
+        "mae": 0.3322,
+        "rmse": 0.3551,
+        "mape": 0.57,
+        "r2": 0.9994,
+        "rms_score": 0.9921,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 0.995,
+      "recommended_action": "accept",
+      "summary": "scatter_trend4: 2 series, RMS=0.9921, R²=0.9994, action=accept"
+    },
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend5.png",
+      "series_alignment": [
+        {
+          "extracted_name": "D2EHPA",
+          "gt_name": "D2EHPA",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Cyanex 272",
+          "gt_name": "Cyanex 272",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "PC88A",
+          "gt_name": "PC88A",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.1725,
+          "rmse": 0.2081,
+          "mape": 0.24,
+          "r2": 0.9996,
+          "rms_score": 0.9948,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "D2EHPA"
+        },
+        {
+          "mae": 0.22,
+          "rmse": 0.2522,
+          "mape": 0.32,
+          "r2": 0.9992,
+          "rms_score": 0.9915,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Cyanex 272"
+        },
+        {
+          "mae": 0.2287,
+          "rmse": 0.2769,
+          "mape": 0.31,
+          "r2": 0.9998,
+          "rms_score": 0.9957,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "PC88A"
+        }
+      ],
+      "overall": {
+        "mae": 0.2071,
+        "rmse": 0.2457,
+        "mape": 0.29,
+        "r2": 0.9995,
+        "rms_score": 0.994,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 0.9962,
+      "recommended_action": "accept",
+      "summary": "scatter_trend5: 3 series, RMS=0.994, R²=0.9995, action=accept"
+    },
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend6.png",
+      "series_alignment": [
+        {
+          "extracted_name": "La",
+          "gt_name": "La",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Nd",
+          "gt_name": "Nd",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.268,
+          "rmse": 0.315,
+          "mape": 0.39,
+          "r2": 0.9995,
+          "rms_score": 0.9944,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "La"
+        },
+        {
+          "mae": 0.31,
+          "rmse": 0.3372,
+          "mape": 0.44,
+          "r2": 0.9995,
+          "rms_score": 0.9937,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Nd"
+        }
+      ],
+      "overall": {
+        "mae": 0.289,
+        "rmse": 0.3261,
+        "mape": 0.415,
+        "r2": 0.9995,
+        "rms_score": 0.994,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 0.9962,
+      "recommended_action": "accept",
+      "summary": "scatter_trend6: 2 series, RMS=0.994, R²=0.9995, action=accept"
+    },
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend7.png",
+      "series_alignment": [
+        {
+          "extracted_name": "D2EHPA",
+          "gt_name": "D2EHPA",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Cyanex 272",
+          "gt_name": "Cyanex 272",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "PC88A",
+          "gt_name": "PC88A",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.0188,
+          "rmse": 0.0237,
+          "mape": 0.15,
+          "r2": 0.9999,
+          "rms_score": 0.9979,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "D2EHPA"
+        },
+        {
+          "mae": 0.0275,
+          "rmse": 0.03,
+          "mape": 0.21,
+          "r2": 0.9999,
+          "rms_score": 0.9969,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Cyanex 272"
+        },
+        {
+          "mae": 0.0225,
+          "rmse": 0.026,
+          "mape": 0.18,
+          "r2": 0.9998,
+          "rms_score": 0.9965,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "PC88A"
+        }
+      ],
+      "overall": {
+        "mae": 0.0229,
+        "rmse": 0.0266,
+        "mape": 0.18,
+        "r2": 0.9999,
+        "rms_score": 0.9971,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 0.9982,
+      "recommended_action": "accept",
+      "summary": "scatter_trend7: 3 series, RMS=0.9971, R²=0.9999, action=accept"
+    },
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend8.png",
+      "series_alignment": [
+        {
+          "extracted_name": "La",
+          "gt_name": "La",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Ce",
+          "gt_name": "Ce",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.2489,
+          "rmse": 0.2954,
+          "mape": 0.41,
+          "r2": 0.9998,
+          "rms_score": 0.996,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "La"
+        },
+        {
+          "mae": 0.32,
+          "rmse": 0.3551,
+          "mape": 0.54,
+          "r2": 0.9997,
+          "rms_score": 0.9949,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Ce"
+        }
+      ],
+      "overall": {
+        "mae": 0.2844,
+        "rmse": 0.3253,
+        "mape": 0.475,
+        "r2": 0.9998,
+        "rms_score": 0.9954,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 0.9972,
+      "recommended_action": "accept",
+      "summary": "scatter_trend8: 2 series, RMS=0.9954, R²=0.9998, action=accept"
+    },
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend9.png",
+      "series_alignment": [
+        {
+          "extracted_name": "La",
+          "gt_name": "La",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Ce",
+          "gt_name": "Ce",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Nd",
+          "gt_name": "Nd",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Pr",
+          "gt_name": "Pr",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.2529,
+          "rmse": 0.2808,
+          "mape": 0.45,
+          "r2": 0.9997,
+          "rms_score": 0.9943,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "La"
+        },
+        {
+          "mae": 0.2986,
+          "rmse": 0.3157,
+          "mape": 0.49,
+          "r2": 0.9994,
+          "rms_score": 0.9925,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Ce"
+        },
+        {
+          "mae": 0.2229,
+          "rmse": 0.2552,
+          "mape": 0.42,
+          "r2": 0.9998,
+          "rms_score": 0.9951,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Nd"
+        },
+        {
+          "mae": 0.1986,
+          "rmse": 0.2323,
+          "mape": 0.38,
+          "r2": 0.9996,
+          "rms_score": 0.9944,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Pr"
+        }
+      ],
+      "overall": {
+        "mae": 0.2432,
+        "rmse": 0.271,
+        "mape": 0.435,
+        "r2": 0.9996,
+        "rms_score": 0.9941,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 0.9963,
+      "recommended_action": "accept",
+      "summary": "scatter_trend9: 4 series, RMS=0.9941, R²=0.9996, action=accept"
+    },
+    {
+      "chart_type": "scatter_line",
+      "filename": "scatter_trend10.png",
+      "series_alignment": [
+        {
+          "extracted_name": "D2EHPA",
+          "gt_name": "D2EHPA",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "Cyanex 272",
+          "gt_name": "Cyanex 272",
+          "match_type": "exact"
+        },
+        {
+          "extracted_name": "PC88A",
+          "gt_name": "PC88A",
+          "match_type": "exact"
+        }
+      ],
+      "axis_match": {
+        "x_label": true,
+        "x_unit": true,
+        "x_scale": true,
+        "y_label": true,
+        "y_unit": true,
+        "y_scale": true
+      },
+      "metrics_per_series": [
+        {
+          "mae": 0.0,
+          "rmse": 0.0,
+          "mape": null,
+          "r2": 1.0,
+          "rms_score": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "D2EHPA"
+        },
+        {
+          "mae": 0.0,
+          "rmse": 0.0,
+          "mape": null,
+          "r2": 1.0,
+          "rms_score": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "Cyanex 272"
+        },
+        {
+          "mae": 0.0,
+          "rmse": 0.0,
+          "mape": null,
+          "r2": 1.0,
+          "rms_score": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "series_name": "PC88A"
+        }
+      ],
+      "overall": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": null,
+        "r2": 1.0,
+        "rms_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "error_categories": {
+        "missing_series": 0,
+        "extra_series": 0,
+        "axis_error": 0,
+        "value_error": 0,
+        "missing_points": 0,
+        "hallucinated_points": 0
+      },
+      "overall_confidence": 1,
+      "recommended_action": "accept",
+      "summary": "scatter_trend10: 3 series, RMS=1.0, R²=1.0, action=accept"
+    }
+  ]
+}

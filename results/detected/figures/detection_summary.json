@@ -1,0 +1,139 @@
+{
+  "pdf": "recent-advances-in-rare-earth-element-recovery-liquid-liquid-extraction-and-magnetophoretic-separation.pdf",
+  "total_pages": 16,
+  "total_figures_detected": 11,
+  "figures": [
+    {
+      "filename": "page1_figure1.png",
+      "page": 1,
+      "bbox": [
+        315.4389953613281,
+        262.375,
+        555.4199829101562,
+        390.5010070800781
+      ],
+      "width_px": 359,
+      "height_px": 192
+    },
+    {
+      "filename": "page2_figure2.png",
+      "page": 2,
+      "bbox": [
+        335.5090026855469,
+        60.43501281738281,
+        535.4080200195312,
+        201.99700927734375
+      ],
+      "width_px": 299,
+      "height_px": 212
+    },
+    {
+      "filename": "page2_figure3.png",
+      "page": 2,
+      "bbox": [
+        349.90899658203125,
+        243.49700927734375,
+        521.0079956054688,
+        374.5140075683594
+      ],
+      "width_px": 256,
+      "height_px": 196
+    },
+    {
+      "filename": "page3_figure4.png",
+      "page": 3,
+      "bbox": [
+        123.98699951171875,
+        60.43505859375,
+        482.8529968261719,
+        416.9200134277344
+      ],
+      "width_px": 538,
+      "height_px": 534
+    },
+    {
+      "filename": "page3_figure5.png",
+      "page": 3,
+      "bbox": [
+        346.3940124511719,
+        447.4770202636719,
+        524.4660034179688,
+        585.1840209960938
+      ],
+      "width_px": 267,
+      "height_px": 206
+    },
+    {
+      "filename": "page5_figure6.png",
+      "page": 5,
+      "bbox": [
+        72.45349884033203,
+        60.43499755859375,
+        534.4445190429688,
+        397.1340026855469
+      ],
+      "width_px": 692,
+      "height_px": 505
+    },
+    {
+      "filename": "page6_figure7.png",
+      "page": 6,
+      "bbox": [
+        365.8389892578125,
+        148.93202209472656,
+        505.0199890136719,
+        284.14501953125
+      ],
+      "width_px": 208,
+      "height_px": 202
+    },
+    {
+      "filename": "page8_figure8.png",
+      "page": 8,
+      "bbox": [
+        315.4389953613281,
+        60.43499755859375,
+        555.4199829101562,
+        311.697998046875
+      ],
+      "width_px": 359,
+      "height_px": 376
+    },
+    {
+      "filename": "page9_figure9.png",
+      "page": 9,
+      "bbox": [
+        112.93199920654297,
+        65.74899291992188,
+        485.02099609375,
+        197.5850067138672
+      ],
+      "width_px": 558,
+      "height_px": 197
+    },
+    {
+      "filename": "page9_figure10.png",
+      "page": 9,
+      "bbox": [
+        123.87100219726562,
+        208.27499389648438,
+        484.0030212402344,
+        369.8890075683594
+      ],
+      "width_px": 540,
+      "height_px": 242
+    },
+    {
+      "filename": "page11_figure11.png",
+      "page": 11,
+      "bbox": [
+        115.19999694824219,
+        60.43501281738281,
+        491.75396728515625,
+        218.32501220703125
+      ],
+      "width_px": 564,
+      "height_px": 236
+    }
+  ]
+}

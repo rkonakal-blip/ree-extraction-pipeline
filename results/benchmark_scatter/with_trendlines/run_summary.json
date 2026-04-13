@@ -1,0 +1,13 @@
+{
+  "input": "benchmark/scatter_plots/with_trendlines",
+  "extract_type": "plots",
+  "total_figures": 10,
+  "validation": {
+    "accept": 10,
+    "review": 0,
+    "re-extract": 0
+  },
+  "avg_rms_score": 0.995,
+  "avg_r2": 0.9996,
+  "avg_f1": 1.0
+}

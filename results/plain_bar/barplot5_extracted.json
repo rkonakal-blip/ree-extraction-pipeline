@@ -1,0 +1,36 @@
+{
+  "title": "Separation Factor Between Adjacent REE Pairs",
+  "x_label": "REE Pair",
+  "y_label": "Separation Factor",
+  "y_axis_range": [
+    0,
+    5
+  ],
+  "bars": [
+    {
+      "label": "La/Ce",
+      "value": 1.11,
+      "error": null
+    },
+    {
+      "label": "Ce/Pr",
+      "value": 2.03,
+      "error": null
+    },
+    {
+      "label": "Pr/Nd",
+      "value": 3.98,
+      "error": null
+    },
+    {
+      "label": "Nd/Sm",
+      "value": 1.19,
+      "error": null
+    },
+    {
+      "label": "Sm/Eu",
+      "value": 2.78,
+      "error": null
+    }
+  ]
+}

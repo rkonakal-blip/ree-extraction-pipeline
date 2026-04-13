@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Extraction Report: stacked_barplot1</title>
+<style>
+body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f8f9fa; }
+h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+h2 { color: #34495e; margin-top: 30px; }
+h3 { color: #7f8c8d; }
+table { border-collapse: collapse; width: 100%; margin: 15px 0; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+th { background: #3498db; color: white; padding: 10px 15px; text-align: left; }
+td { padding: 8px 15px; border-bottom: 1px solid #ecf0f1; }
+tr:hover td { background: #f1f8fe; }
+.metric-card { display: inline-block; background: white; padding: 15px 25px; margin: 5px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+.metric-value { font-size: 24px; font-weight: bold; color: #2c3e50; }
+.metric-label { font-size: 12px; color: #7f8c8d; text-transform: uppercase; }
+.validation-ok { color: #27ae60; font-weight: bold; }
+.validation-err { color: #e74c3c; }
+.section { background: white; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+</style>
+</head>
+<body>
+<h1>Extraction Report: stacked_barplot1</h1>
+<p><strong>Chart Type:</strong> stacked_bar | <strong>Generated:</strong> 2026-03-26 16:15:42</p>
+
+<div class="section">
+<h2>Validation</h2>
+<p class="validation-ok">All schema validations passed.</p>
+</div>
+<div class="section">
+<h2>Overall Metrics</h2>
+<div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">MAE</div></div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">RMSE</div></div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">MAPE (%)</div></div>
+<div class="metric-card"><div class="metric-value">1.0000</div><div class="metric-label">R²</div></div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">RMS Rel. Map Score (%)</div></div>
+</div>
+</div>
+<div class="section">
+<h2>Per-Series Metrics</h2>
+<table><tr><th>Series</th><th>MAE</th><th>RMSE</th><th>MAPE (%)</th><th>R²</th><th>RMS Rel. (%)</th><th>N</th></tr>
+<tr><td>Organic phase</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>5</td></tr>
+<tr><td>Aqueous phase</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>5</td></tr>
+<tr><td>Interfacial</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>5</td></tr>
+</table>
+</div>
+<div class="section">
+<h2>Extracted Data (JSON)</h2>
+<pre>{
+  "title": "Phase Distribution Across pH Levels",
+  "x_label": "pH",
+  "y_label": "Proportion (%)",
+  "y_axis_range": [
+    0,
+    100
+  ],
+  "segments": [
+    "Organic phase",
+    "Aqueous phase",
+    "Interfacial"
+  ],
+  "bars": [
+    {
+      "label": "1.5",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 10.2,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 49.1,
+          "cumulative_bottom": 10.2
+        },
+        {
+          "name": "Interfacial",
+          "value": 40.7,
+          "cumulative_bottom": 59.3
+        }
+      ]
+    },
+    {
+      "label": "2.0",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 47.4,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 42.0,
+          "cumulative_bottom": 47.4
+        },
+        {
+          "name": "Interfacial",
+          "value": 10.6,
+          "cumulative_bottom": 89.4
+        }
+      ]
+    },
+    {
+      "label": "2.5",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 40.0,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 25.0,
+          "cumulative_bottom": 40.0
+        },
+        {
+          "name": "Interfacial",
+          "value": 35.0,
+          "cumulative_bottom": 65.0
+        }
+      ]
+    },
+    {
+      "label": "3.0",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 23.4,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 60.3,
+          "cumulative_bottom": 23.4
+        },
+        {
+          "name": "Interfacial",
+          "value": 16.3,
+          "cumulative_bottom": 83.7
+        }
+      ]
+    },
+    {
+      "label": "3.5",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 35.6,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 53.8,
+          "cumulative_bottom": 35.6
+        },
+        {
+          "name": "Interfacial",
+          "value": 10.6,
+          "cumulative_bottom": 89.4
+        }
+      ]
+    }
+  ]
+}</pre>
+</div>
+<div class="section">
+<h2>Ground Truth (JSON)</h2>
+<pre>{
+  "title": "Phase Distribution Across pH Levels",
+  "x_label": "pH",
+  "y_label": "Proportion (%)",
+  "y_axis_range": [
+    0,
+    100
+  ],
+  "segments": [
+    "Organic phase",
+    "Aqueous phase",
+    "Interfacial"
+  ],
+  "bars": [
+    {
+      "label": "1.5",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 10.2,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 49.1,
+          "cumulative_bottom": 10.2
+        },
+        {
+          "name": "Interfacial",
+          "value": 40.7,
+          "cumulative_bottom": 59.3
+        }
+      ]
+    },
+    {
+      "label": "2.0",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 47.4,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 42.0,
+          "cumulative_bottom": 47.4
+        },
+        {
+          "name": "Interfacial",
+          "value": 10.6,
+          "cumulative_bottom": 89.4
+        }
+      ]
+    },
+    {
+      "label": "2.5",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 40.0,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 25.0,
+          "cumulative_bottom": 40.0
+        },
+        {
+          "name": "Interfacial",
+          "value": 35.0,
+          "cumulative_bottom": 65.0
+        }
+      ]
+    },
+    {
+      "label": "3.0",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 23.4,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 60.3,
+          "cumulative_bottom": 23.4
+        },
+        {
+          "name": "Interfacial",
+          "value": 16.3,
+          "cumulative_bottom": 83.7
+        }
+      ]
+    },
+    {
+      "label": "3.5",
+      "segments": [
+        {
+          "name": "Organic phase",
+          "value": 35.6,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Aqueous phase",
+          "value": 53.8,
+          "cumulative_bottom": 35.6
+        },
+        {
+          "name": "Interfacial",
+          "value": 10.6,
+          "cumulative_bottom": 89.4
+        }
+      ]
+    }
+  ]
+}</pre>
+</div>
+</body>
+</html>

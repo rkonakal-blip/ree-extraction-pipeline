@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Extraction Report: stacked_barplot6</title>
+<style>
+body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f8f9fa; }
+h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+h2 { color: #34495e; margin-top: 30px; }
+h3 { color: #7f8c8d; }
+table { border-collapse: collapse; width: 100%; margin: 15px 0; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+th { background: #3498db; color: white; padding: 10px 15px; text-align: left; }
+td { padding: 8px 15px; border-bottom: 1px solid #ecf0f1; }
+tr:hover td { background: #f1f8fe; }
+.metric-card { display: inline-block; background: white; padding: 15px 25px; margin: 5px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+.metric-value { font-size: 24px; font-weight: bold; color: #2c3e50; }
+.metric-label { font-size: 12px; color: #7f8c8d; text-transform: uppercase; }
+.validation-ok { color: #27ae60; font-weight: bold; }
+.validation-err { color: #e74c3c; }
+.section { background: white; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+</style>
+</head>
+<body>
+<h1>Extraction Report: stacked_barplot6</h1>
+<p><strong>Chart Type:</strong> stacked_bar | <strong>Generated:</strong> 2026-03-26 16:15:42</p>
+
+<div class="section">
+<h2>Validation</h2>
+<p class="validation-ok">All schema validations passed.</p>
+</div>
+<div class="section">
+<h2>Overall Metrics</h2>
+<div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">MAE</div></div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">RMSE</div></div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">MAPE (%)</div></div>
+<div class="metric-card"><div class="metric-value">1.0000</div><div class="metric-label">R²</div></div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">RMS Rel. Map Score (%)</div></div>
+</div>
+</div>
+<div class="section">
+<h2>Per-Series Metrics</h2>
+<table><tr><th>Series</th><th>MAE</th><th>RMSE</th><th>MAPE (%)</th><th>R²</th><th>RMS Rel. (%)</th><th>N</th></tr>
+<tr><td>Fast extraction</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>6</td></tr>
+<tr><td>Slow extraction</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>6</td></tr>
+<tr><td>Equilibrium</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>6</td></tr>
+<tr><td>Residual</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>6</td></tr>
+</table>
+</div>
+<div class="section">
+<h2>Extracted Data (JSON)</h2>
+<pre>{
+  "title": "Extraction Kinetics by Contact Time",
+  "x_label": "Contact Time (min)",
+  "y_label": "Extraction Efficiency (%)",
+  "y_axis_range": [
+    0,
+    100
+  ],
+  "segments": [
+    "Fast extraction",
+    "Slow extraction",
+    "Equilibrium",
+    "Residual"
+  ],
+  "bars": [
+    {
+      "label": "5",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 27.4,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 30.7,
+          "cumulative_bottom": 27.4
+        },
+        {
+          "name": "Equilibrium",
+          "value": 5.6,
+          "cumulative_bottom": 58.1
+        },
+        {
+          "name": "Residual",
+          "value": 36.3,
+          "cumulative_bottom": 63.7
+        }
+      ]
+    },
+    {
+      "label": "10",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 36.6,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 26.4,
+          "cumulative_bottom": 36.6
+        },
+        {
+          "name": "Equilibrium",
+          "value": 8.8,
+          "cumulative_bottom": 63.0
+        },
+        {
+          "name": "Residual",
+          "value": 28.2,
+          "cumulative_bottom": 71.8
+        }
+      ]
+    },
+    {
+      "label": "20",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 21.8,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 13.3,
+          "cumulative_bottom": 21.8
+        },
+        {
+          "name": "Equilibrium",
+          "value": 42.6,
+          "cumulative_bottom": 35.1
+        },
+        {
+          "name": "Residual",
+          "value": 22.3,
+          "cumulative_bottom": 77.7
+        }
+      ]
+    },
+    {
+      "label": "30",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 38.8,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 28.9,
+          "cumulative_bottom": 38.8
+        },
+        {
+          "name": "Equilibrium",
+          "value": 7.0,
+          "cumulative_bottom": 67.7
+        },
+        {
+          "name": "Residual",
+          "value": 25.3,
+          "cumulative_bottom": 74.7
+        }
+      ]
+    },
+    {
+      "label": "45",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 32.0,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 14.0,
+          "cumulative_bottom": 32.0
+        },
+        {
+          "name": "Equilibrium",
+          "value": 29.5,
+          "cumulative_bottom": 46.0
+        },
+        {
+          "name": "Residual",
+          "value": 24.5,
+          "cumulative_bottom": 75.5
+        }
+      ]
+    },
+    {
+      "label": "60",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 15.1,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 25.6,
+          "cumulative_bottom": 15.1
+        },
+        {
+          "name": "Equilibrium",
+          "value": 35.2,
+          "cumulative_bottom": 40.7
+        },
+        {
+          "name": "Residual",
+          "value": 24.1,
+          "cumulative_bottom": 75.9
+        }
+      ]
+    }
+  ]
+}</pre>
+</div>
+<div class="section">
+<h2>Ground Truth (JSON)</h2>
+<pre>{
+  "title": "Extraction Kinetics by Contact Time",
+  "x_label": "Contact Time (min)",
+  "y_label": "Extraction Efficiency (%)",
+  "y_axis_range": [
+    0,
+    100
+  ],
+  "segments": [
+    "Fast extraction",
+    "Slow extraction",
+    "Equilibrium",
+    "Residual"
+  ],
+  "bars": [
+    {
+      "label": "5",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 27.4,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 30.7,
+          "cumulative_bottom": 27.4
+        },
+        {
+          "name": "Equilibrium",
+          "value": 5.6,
+          "cumulative_bottom": 58.1
+        },
+        {
+          "name": "Residual",
+          "value": 36.3,
+          "cumulative_bottom": 63.7
+        }
+      ]
+    },
+    {
+      "label": "10",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 36.6,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 26.4,
+          "cumulative_bottom": 36.6
+        },
+        {
+          "name": "Equilibrium",
+          "value": 8.8,
+          "cumulative_bottom": 63.0
+        },
+        {
+          "name": "Residual",
+          "value": 28.2,
+          "cumulative_bottom": 71.8
+        }
+      ]
+    },
+    {
+      "label": "20",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 21.8,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 13.3,
+          "cumulative_bottom": 21.8
+        },
+        {
+          "name": "Equilibrium",
+          "value": 42.6,
+          "cumulative_bottom": 35.1
+        },
+        {
+          "name": "Residual",
+          "value": 22.3,
+          "cumulative_bottom": 77.7
+        }
+      ]
+    },
+    {
+      "label": "30",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 38.8,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 28.9,
+          "cumulative_bottom": 38.8
+        },
+        {
+          "name": "Equilibrium",
+          "value": 7.0,
+          "cumulative_bottom": 67.7
+        },
+        {
+          "name": "Residual",
+          "value": 25.3,
+          "cumulative_bottom": 74.7
+        }
+      ]
+    },
+    {
+      "label": "45",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 32.0,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 14.0,
+          "cumulative_bottom": 32.0
+        },
+        {
+          "name": "Equilibrium",
+          "value": 29.5,
+          "cumulative_bottom": 46.0
+        },
+        {
+          "name": "Residual",
+          "value": 24.5,
+          "cumulative_bottom": 75.5
+        }
+      ]
+    },
+    {
+      "label": "60",
+      "segments": [
+        {
+          "name": "Fast extraction",
+          "value": 15.1,
+          "cumulative_bottom": 0.0
+        },
+        {
+          "name": "Slow extraction",
+          "value": 25.6,
+          "cumulative_bottom": 15.1
+        },
+        {
+          "name": "Equilibrium",
+          "value": 35.2,
+          "cumulative_bottom": 40.7
+        },
+        {
+          "name": "Residual",
+          "value": 24.1,
+          "cumulative_bottom": 75.9
+        }
+      ]
+    }
+  ]
+}</pre>
+</div>
+</body>
+</html>

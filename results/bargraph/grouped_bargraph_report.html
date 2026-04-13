@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bar Graph Extraction Report — grouped_bargraph</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+  h1 { border-bottom: 2px solid #c00; padding-bottom: .4rem; }
+  h2 { margin-top: 2rem; color: #333; }
+  table { border-collapse: collapse; margin: 1rem 0; }
+  th, td { border: 1px solid #bbb; padding: 6px 12px; text-align: left; }
+  th { background: #e8e8e8; }
+  .series-header { margin-top: 1.5rem; font-weight: bold; }
+  .notes { background: #fff8e1; border-left: 4px solid #FFC000; padding: .8rem 1rem; margin: 1.5rem 0; }
+  img { max-width: 100%; margin: 1rem 0; border: 1px solid #ccc; }
+</style>
+</head>
+<body>
+
+<h1>Grouped Bar Graph Extraction Report</h1>
+<p><strong>Source image:</strong> grouped_bargraph.png</p>
+
+<h2>1. Metadata</h2>
+<table>
+  <tr><th>Field</th><th>Value</th></tr>
+  <tr><td>Chart title</td><td>(partially cropped at top — not fully visible)</td></tr>
+  <tr><td>X axis label</td><td>Year</td></tr>
+  <tr><td>X axis categories</td><td>2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020</td></tr>
+  <tr><td>Y axis label</td><td>Number of Papers</td></tr>
+  <tr><td>Y axis unit</td><td>count</td></tr>
+  <tr><td>Y axis scale</td><td>linear</td></tr>
+  <tr><td>Y axis range</td><td>[0, 500]</td></tr>
+  <tr><td>Number of series</td><td>2</td></tr>
+  <tr><td>Error bars present</td><td>false</td></tr>
+  <tr><td>Error bar type</td><td>N/A</td></tr>
+  <tr><td>Legend present</td><td>Yes — inside plot, upper-left</td></tr>
+  <tr><td>Notes</td><td>A small red dot appears near (2020, ~350), likely a stray annotation or plotting artifact. Chart title is partially cropped.</td></tr>
+</table>
+
+<h2>2. Extracted Data</h2>
+
+<p class="series-header">Series: Separation | Colour: black</p>
+<table>
+  <tr><th>Year</th><th>Number of Papers</th></tr>
+  <tr><td>2011</td><td>130</td></tr>
+  <tr><td>2012</td><td>155</td></tr>
+  <tr><td>2013</td><td>175</td></tr>
+  <tr><td>2014</td><td>195</td></tr>
+  <tr><td>2015</td><td>250</td></tr>
+  <tr><td>2016</td><td>280</td></tr>
+  <tr><td>2017</td><td>335</td></tr>
+  <tr><td>2018</td><td>420</td></tr>
+  <tr><td>2019</td><td>450</td></tr>
+  <tr><td>2020</td><td>470</td></tr>
+</table>
+
+<p class="series-header">Series: Solvent Extraction | Colour: red</p>
+<table>
+  <tr><th>Year</th><th>Number of Papers</th></tr>
+  <tr><td>2011</td><td>35</td></tr>
+  <tr><td>2012</td><td>45</td></tr>
+  <tr><td>2013</td><td>65</td></tr>
+  <tr><td>2014</td><td>70</td></tr>
+  <tr><td>2015</td><td>100</td></tr>
+  <tr><td>2016</td><td>110</td></tr>
+  <tr><td>2017</td><td>150</td></tr>
+  <tr><td>2018</td><td>210</td></tr>
+  <tr><td>2019</td><td>175</td></tr>
+  <tr><td>2020</td><td>170</td></tr>
+</table>
+
+<h2>3. Reproduced Figure</h2>
+<img src="grouped_bargraph_reproduced.png" alt="Reproduced grouped bar graph">
+
+<h2>4. Extraction Notes</h2>
+<div class="notes">
+  <ul>
+    <li><strong>Cropped title:</strong> The chart title is partially cut off at the top of the image and could not be fully read.</li>
+    <li><strong>Red dot artifact:</strong> A small red dot appears near year 2020 at approximately y = 350. This does not correspond to any bar top and is likely a plotting artifact or stray annotation. It was not included in the extracted data.</li>
+    <li><strong>Short bars (2011–2012 red):</strong> The Solvent Extraction bars for 2011 (~35) and 2012 (~45) are quite short relative to the y-axis range, making precise height estimation harder. Confidence is ±5–10 papers for these values.</li>
+    <li><strong>2019 vs 2020 Solvent Extraction:</strong> The red bars for 2019 (~175) and 2020 (~170) appear to dip from the 2018 peak (~210). This is a notable trend break — the Solvent Extraction count decreases while Separation continues to grow. Readings are moderate confidence (±10).</li>
+    <li><strong>General precision:</strong> Without gridlines, all bar heights were estimated by interpolating between y-axis tick marks spaced at 100-unit intervals. Typical uncertainty is ±10–15 papers for taller bars and ±5–10 for shorter bars.</li>
+  </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "filename": "page9_figure9.png",
+  "total_panels": 3,
+  "layout": "1x3",
+  "panels": [
+    {
+      "panel": "A",
+      "chart_type": "scatter_line",
+      "output_file": "page9_figure9_panel_a_data.json",
+      "confidence": "MEDIUM"
+    },
+    {
+      "panel": "B",
+      "chart_type": "scatter_line",
+      "output_file": "page9_figure9_panel_b_data.json",
+      "confidence": "MEDIUM"
+    },
+    {
+      "panel": "C",
+      "chart_type": "scatter_line",
+      "output_file": "page9_figure9_panel_c_data.json",
+      "confidence": "MEDIUM"
+    }
+  ]
+}

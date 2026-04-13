@@ -1,0 +1,31 @@
+{
+  "title": "Distribution Ratio of REEs in D2EHPA System",
+  "x_label": "Rare Earth Element",
+  "y_label": "Distribution Ratio (D)",
+  "y_axis_range": [
+    0,
+    10
+  ],
+  "bars": [
+    {
+      "label": "La",
+      "value": 8.06,
+      "error": null
+    },
+    {
+      "label": "Ce",
+      "value": 3.55,
+      "error": null
+    },
+    {
+      "label": "Nd",
+      "value": 3.49,
+      "error": null
+    },
+    {
+      "label": "Pr",
+      "value": 9.0,
+      "error": null
+    }
+  ]
+}

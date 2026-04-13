@@ -1,0 +1,196 @@
+{
+  "chart_type": "scatter_line",
+  "panel": "B",
+  "confidence": "MEDIUM",
+  "figure_metadata": {
+    "title": "log D_A vs REE - Panel B",
+    "notes": "TODGA/TBP/IL vs TODGA/TBP/nonane"
+  },
+  "axes": {
+    "x": {
+      "label": "REE",
+      "unit": null,
+      "scale": "linear",
+      "range": [
+        1,
+        15
+      ],
+      "ticks": [
+        "Y",
+        "La",
+        "Ce",
+        "Pr",
+        "Nd",
+        "Sm",
+        "Eu",
+        "Gd",
+        "Tb",
+        "Dy",
+        "Ho",
+        "Er",
+        "Tm",
+        "Yb",
+        "Lu"
+      ]
+    },
+    "y": {
+      "label": "log D_A",
+      "unit": null,
+      "scale": "linear",
+      "range": [
+        -1.0,
+        2.0
+      ],
+      "ticks": [
+        -1,
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "TODGA/TBP/IL",
+        "marker": "circle",
+        "color": "pink",
+        "points": [
+          {
+            "x": "Y",
+            "y": 0.8
+          },
+          {
+            "x": "La",
+            "y": 0.5
+          },
+          {
+            "x": "Ce",
+            "y": 0.6
+          },
+          {
+            "x": "Pr",
+            "y": 0.7
+          },
+          {
+            "x": "Nd",
+            "y": 0.8
+          },
+          {
+            "x": "Sm",
+            "y": 1.0
+          },
+          {
+            "x": "Eu",
+            "y": 1.1
+          },
+          {
+            "x": "Gd",
+            "y": 1.2
+          },
+          {
+            "x": "Tb",
+            "y": 1.3
+          },
+          {
+            "x": "Dy",
+            "y": 1.4
+          },
+          {
+            "x": "Ho",
+            "y": 1.5
+          },
+          {
+            "x": "Er",
+            "y": 1.5
+          },
+          {
+            "x": "Tm",
+            "y": 1.6
+          },
+          {
+            "x": "Yb",
+            "y": 1.6
+          },
+          {
+            "x": "Lu",
+            "y": 1.7
+          }
+        ]
+      },
+      {
+        "name": "TODGA/TBP/nonane",
+        "marker": "triangle",
+        "color": "blue",
+        "points": [
+          {
+            "x": "Y",
+            "y": -0.4
+          },
+          {
+            "x": "La",
+            "y": -0.5
+          },
+          {
+            "x": "Ce",
+            "y": -0.4
+          },
+          {
+            "x": "Pr",
+            "y": -0.3
+          },
+          {
+            "x": "Nd",
+            "y": -0.2
+          },
+          {
+            "x": "Sm",
+            "y": 0.0
+          },
+          {
+            "x": "Eu",
+            "y": 0.1
+          },
+          {
+            "x": "Gd",
+            "y": 0.2
+          },
+          {
+            "x": "Tb",
+            "y": 0.4
+          },
+          {
+            "x": "Dy",
+            "y": 0.6
+          },
+          {
+            "x": "Ho",
+            "y": 0.7
+          },
+          {
+            "x": "Er",
+            "y": 0.8
+          },
+          {
+            "x": "Tm",
+            "y": 0.9
+          },
+          {
+            "x": "Yb",
+            "y": 1.0
+          },
+          {
+            "x": "Lu",
+            "y": 1.1
+          }
+        ]
+      }
+    ]
+  },
+  "special_additions": {
+    "error_bars": null,
+    "trendline": null,
+    "annotations": [],
+    "reference_line": null
+  }
+}

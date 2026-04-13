@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Extraction Report: scatter_trend10</title>
+<style>
+body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f8f9fa; }
+h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+h2 { color: #34495e; margin-top: 30px; }
+h3 { color: #7f8c8d; }
+table { border-collapse: collapse; width: 100%; margin: 15px 0; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+th { background: #3498db; color: white; padding: 10px 15px; text-align: left; }
+td { padding: 8px 15px; border-bottom: 1px solid #ecf0f1; }
+tr:hover td { background: #f1f8fe; }
+.metric-card { display: inline-block; background: white; padding: 15px 25px; margin: 5px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+.metric-value { font-size: 24px; font-weight: bold; color: #2c3e50; }
+.metric-label { font-size: 12px; color: #7f8c8d; text-transform: uppercase; }
+.validation-ok { color: #27ae60; font-weight: bold; }
+.validation-err { color: #e74c3c; }
+.section { background: white; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+</style>
+</head>
+<body>
+<h1>Extraction Report: scatter_trend10</h1>
+<p><strong>Chart Type:</strong> scatter | <strong>Generated:</strong> 2026-03-26 16:15:42</p>
+
+<div class="section">
+<h2>Validation</h2>
+<p class="validation-ok">All schema validations passed.</p>
+</div>
+<div class="section">
+<h2>Overall Metrics</h2>
+<div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">MAE</div></div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">RMSE</div></div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">MAPE (%)</div></div>
+<div class="metric-card"><div class="metric-value">1.0000</div><div class="metric-label">R²</div></div>
+<div class="metric-card"><div class="metric-value">0.0000</div><div class="metric-label">RMS Rel. Map Score (%)</div></div>
+</div>
+</div>
+<div class="section">
+<h2>Per-Series Metrics</h2>
+<table><tr><th>Series</th><th>MAE</th><th>RMSE</th><th>MAPE (%)</th><th>R²</th><th>RMS Rel. (%)</th><th>N</th></tr>
+<tr><td>D2EHPA</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>8</td></tr>
+<tr><td>Cyanex 272</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>8</td></tr>
+<tr><td>PC88A</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>8</td></tr>
+</table>
+</div>
+<div class="section">
+<h2>Extracted Data (JSON)</h2>
+<pre>{
+  "title": "Separation Factor vs pH for REE Pairs",
+  "x_label": "pH",
+  "y_label": "Separation Factor (\u03b1)",
+  "y_axis_range": [
+    0,
+    5
+  ],
+  "trend_type": "polynomial_deg2",
+  "series": [
+    {
+      "name": "D2EHPA",
+      "points": [
+        {
+          "x": 1.062,
+          "y": 1.01
+        },
+        {
+          "x": 1.594,
+          "y": 1.71
+        },
+        {
+          "x": 2.217,
+          "y": 2.57
+        },
+        {
+          "x": 2.765,
+          "y": 3.36
+        },
+        {
+          "x": 3.351,
+          "y": 3.57
+        },
+        {
+          "x": 3.92,
+          "y": 3.52
+        },
+        {
+          "x": 4.373,
+          "y": 3.43
+        },
+        {
+          "x": 5.0,
+          "y": 3.46
+        }
+      ],
+      "trend_coefficients": [
+        -0.304041,
+        2.449249,
+        -1.300877
+      ],
+      "r_squared": 0.9813
+    },
+    {
+      "name": "Cyanex 272",
+      "points": [
+        {
+          "x": 1.056,
+          "y": 1.07
+        },
+        {
+          "x": 1.607,
+          "y": 1.57
+        },
+        {
+          "x": 2.069,
+          "y": 2.44
+        },
+        {
+          "x": 2.642,
+          "y": 3.09
+        },
+        {
+          "x": 3.262,
+          "y": 2.96
+        },
+        {
+          "x": 3.902,
+          "y": 3.11
+        },
+        {
+          "x": 4.463,
+          "y": 3.06
+        },
+        {
+          "x": 4.965,
+          "y": 2.94
+        }
+      ],
+      "trend_coefficients": [
+        -0.281548,
+        2.163751,
+        -0.946736
+      ],
+      "r_squared": 0.9553
+    },
+    {
+      "name": "PC88A",
+      "points": [
+        {
+          "x": 1.0,
+          "y": 1.13
+        },
+        {
+          "x": 1.604,
+          "y": 1.55
+        },
+        {
+          "x": 2.154,
+          "y": 2.13
+        },
+        {
+          "x": 2.774,
+          "y": 3.19
+        },
+        {
+          "x": 3.273,
+          "y": 3.4
+        },
+        {
+          "x": 3.884,
+          "y": 3.76
+        },
+        {
+          "x": 4.436,
+          "y": 3.57
+        },
+        {
+          "x": 4.966,
+          "y": 3.5
+        }
+      ],
+      "trend_coefficients": [
+        -0.233731,
+        2.069797,
+        -0.940265
+      ],
+      "r_squared": 0.9611
+    }
+  ]
+}</pre>
+</div>
+<div class="section">
+<h2>Ground Truth (JSON)</h2>
+<pre>{
+  "title": "Separation Factor vs pH for REE Pairs",
+  "x_label": "pH",
+  "y_label": "Separation Factor (\u03b1)",
+  "y_axis_range": [
+    0,
+    5
+  ],
+  "trend_type": "polynomial_deg2",
+  "series": [
+    {
+      "name": "D2EHPA",
+      "points": [
+        {
+          "x": 1.062,
+          "y": 1.01
+        },
+        {
+          "x": 1.594,
+          "y": 1.71
+        },
+        {
+          "x": 2.217,
+          "y": 2.57
+        },
+        {
+          "x": 2.765,
+          "y": 3.36
+        },
+        {
+          "x": 3.351,
+          "y": 3.57
+        },
+        {
+          "x": 3.92,
+          "y": 3.52
+        },
+        {
+          "x": 4.373,
+          "y": 3.43
+        },
+        {
+          "x": 5.0,
+          "y": 3.46
+        }
+      ],
+      "trend_coefficients": [
+        -0.304041,
+        2.449249,
+        -1.300877
+      ],
+      "r_squared": 0.9813
+    },
+    {
+      "name": "Cyanex 272",
+      "points": [
+        {
+          "x": 1.056,
+          "y": 1.07
+        },
+        {
+          "x": 1.607,
+          "y": 1.57
+        },
+        {
+          "x": 2.069,
+          "y": 2.44
+        },
+        {
+          "x": 2.642,
+          "y": 3.09
+        },
+        {
+          "x": 3.262,
+          "y": 2.96
+        },
+        {
+          "x": 3.902,
+          "y": 3.11
+        },
+        {
+          "x": 4.463,
+          "y": 3.06
+        },
+        {
+          "x": 4.965,
+          "y": 2.94
+        }
+      ],
+      "trend_coefficients": [
+        -0.281548,
+        2.163751,
+        -0.946736
+      ],
+      "r_squared": 0.9553
+    },
+    {
+      "name": "PC88A",
+      "points": [
+        {
+          "x": 1.0,
+          "y": 1.13
+        },
+        {
+          "x": 1.604,
+          "y": 1.55
+        },
+        {
+          "x": 2.154,
+          "y": 2.13
+        },
+        {
+          "x": 2.774,
+          "y": 3.19
+        },
+        {
+          "x": 3.273,
+          "y": 3.4
+        },
+        {
+          "x": 3.884,
+          "y": 3.76
+        },
+        {
+          "x": 4.436,
+          "y": 3.57
+        },
+        {
+          "x": 4.966,
+          "y": 3.5
+        }
+      ],
+      "trend_coefficients": [
+        -0.233731,
+        2.069797,
+        -0.940265
+      ],
+      "r_squared": 0.9611
+    }
+  ]
+}</pre>
+</div>
+</body>
+</html>

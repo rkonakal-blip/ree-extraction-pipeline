@@ -1,0 +1,101 @@
+{
+  "chart_type": "scatter_line",
+  "filename": "scatter_trend9.png",
+  "series_alignment": [
+    {
+      "extracted_name": "La",
+      "gt_name": "La",
+      "match_type": "exact"
+    },
+    {
+      "extracted_name": "Ce",
+      "gt_name": "Ce",
+      "match_type": "exact"
+    },
+    {
+      "extracted_name": "Nd",
+      "gt_name": "Nd",
+      "match_type": "exact"
+    },
+    {
+      "extracted_name": "Pr",
+      "gt_name": "Pr",
+      "match_type": "exact"
+    }
+  ],
+  "axis_match": {
+    "x_label": true,
+    "x_unit": true,
+    "x_scale": true,
+    "y_label": true,
+    "y_unit": true,
+    "y_scale": true
+  },
+  "metrics_per_series": [
+    {
+      "mae": 0.2529,
+      "rmse": 0.2808,
+      "mape": 0.45,
+      "r2": 0.9997,
+      "rms_score": 0.9943,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "series_name": "La"
+    },
+    {
+      "mae": 0.2986,
+      "rmse": 0.3157,
+      "mape": 0.49,
+      "r2": 0.9994,
+      "rms_score": 0.9925,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "series_name": "Ce"
+    },
+    {
+      "mae": 0.2229,
+      "rmse": 0.2552,
+      "mape": 0.42,
+      "r2": 0.9998,
+      "rms_score": 0.9951,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "series_name": "Nd"
+    },
+    {
+      "mae": 0.1986,
+      "rmse": 0.2323,
+      "mape": 0.38,
+      "r2": 0.9996,
+      "rms_score": 0.9944,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "series_name": "Pr"
+    }
+  ],
+  "overall": {
+    "mae": 0.2432,
+    "rmse": 0.271,
+    "mape": 0.435,
+    "r2": 0.9996,
+    "rms_score": 0.9941,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "error_categories": {
+    "missing_series": 0,
+    "extra_series": 0,
+    "axis_error": 0,
+    "value_error": 0,
+    "missing_points": 0,
+    "hallucinated_points": 0
+  },
+  "overall_confidence": 0.9963,
+  "recommended_action": "accept",
+  "summary": "scatter_trend9: 4 series, RMS=0.9941, R\u00b2=0.9996, action=accept"
+}

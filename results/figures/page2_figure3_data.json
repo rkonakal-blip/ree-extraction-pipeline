@@ -1,0 +1,384 @@
+{
+  "chart_type": "bar_grouped",
+  "figure_metadata": {
+    "title": "Average rare earth oxide (REO) compositions (wt %)",
+    "orientation": "vertical",
+    "notes": "Broken Y-axis: lower section 0\u20130.4, upper section 0\u201350 wt%. Data read from bars."
+  },
+  "axes": {
+    "category": {
+      "label": "REO",
+      "unit": null,
+      "categories": [
+        "La",
+        "Ce",
+        "Pr",
+        "Nd",
+        "Sm",
+        "Eu",
+        "Gd",
+        "Tb",
+        "Dy",
+        "Ho",
+        "Er",
+        "Tm",
+        "Yb",
+        "Lu",
+        "Y"
+      ]
+    },
+    "value": {
+      "label": "wt %",
+      "unit": "wt%",
+      "scale": "linear",
+      "range": [
+        0,
+        50
+      ],
+      "ticks": [
+        0,
+        0.2,
+        0.4,
+        10,
+        20,
+        30,
+        40,
+        50
+      ]
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Mountain Pass, United States",
+        "color": "blue",
+        "bars": [
+          {
+            "category": "La",
+            "value": 26.0,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Ce",
+            "value": 50.0,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Pr",
+            "value": 5.5,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Nd",
+            "value": 17.5,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Sm",
+            "value": 0.8,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Eu",
+            "value": 0.1,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Gd",
+            "value": 0.8,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Tb",
+            "value": 0.01,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Dy",
+            "value": 0.12,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Ho",
+            "value": 0.02,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Er",
+            "value": 0.02,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Tm",
+            "value": 0.01,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Yb",
+            "value": 0.04,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Lu",
+            "value": 0.01,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Y",
+            "value": 0.0,
+            "cumulative_bottom": null
+          }
+        ]
+      },
+      {
+        "name": "Bayan Obo, China",
+        "color": "red",
+        "bars": [
+          {
+            "category": "La",
+            "value": 22.0,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Ce",
+            "value": 50.0,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Pr",
+            "value": 6.2,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Nd",
+            "value": 19.0,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Sm",
+            "value": 1.0,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Eu",
+            "value": 0.2,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Gd",
+            "value": 0.7,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Tb",
+            "value": 0.02,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Dy",
+            "value": 0.13,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Ho",
+            "value": 0.02,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Er",
+            "value": 0.02,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Tm",
+            "value": 0.01,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Yb",
+            "value": 0.03,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Lu",
+            "value": 0.01,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Y",
+            "value": 0.0,
+            "cumulative_bottom": null
+          }
+        ]
+      },
+      {
+        "name": "Mount Weld, Australia",
+        "color": "green",
+        "bars": [
+          {
+            "category": "La",
+            "value": 10.5,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Ce",
+            "value": 25.0,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Pr",
+            "value": 3.2,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Nd",
+            "value": 12.5,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Sm",
+            "value": 0.8,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Eu",
+            "value": 0.1,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Gd",
+            "value": 0.7,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Tb",
+            "value": 0.05,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Dy",
+            "value": 0.35,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Ho",
+            "value": 0.08,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Er",
+            "value": 0.05,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Tm",
+            "value": 0.01,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Yb",
+            "value": 0.07,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Lu",
+            "value": 0.02,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Y",
+            "value": 0.0,
+            "cumulative_bottom": null
+          }
+        ]
+      },
+      {
+        "name": "Steenkampskraal, South Africa",
+        "color": "purple",
+        "bars": [
+          {
+            "category": "La",
+            "value": 0.1,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Ce",
+            "value": 0.07,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Pr",
+            "value": 0.03,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Nd",
+            "value": 0.2,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Sm",
+            "value": 0.1,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Eu",
+            "value": 0.05,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Gd",
+            "value": 0.12,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Tb",
+            "value": 0.05,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Dy",
+            "value": 0.35,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Ho",
+            "value": 0.17,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Er",
+            "value": 0.28,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Tm",
+            "value": 0.07,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Yb",
+            "value": 0.35,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Lu",
+            "value": 0.17,
+            "cumulative_bottom": null
+          },
+          {
+            "category": "Y",
+            "value": 0.0,
+            "cumulative_bottom": null
+          }
+        ]
+      }
+    ]
+  },
+  "special_additions": {
+    "error_bars": null,
+    "annotations": [],
+    "reference_line": null
+  },
+  "confidence": "MEDIUM"
+}
