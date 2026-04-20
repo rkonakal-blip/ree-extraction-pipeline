@@ -1,0 +1,653 @@
+{
+  "paper_id": "syn_034",
+  "pages": 5,
+  "layout": "single",
+  "figures": [
+    {
+      "figure_id": 1,
+      "figure_type": "bar_plain",
+      "is_multipanel": false,
+      "panel_count": 1,
+      "page": 2,
+      "bbox": [
+        242.86,
+        653.81,
+        352.42,
+        754.07
+      ],
+      "caption_style": "Figure N.",
+      "caption_text": "Figure 1. distribution terbium extraction Cyanex yttrium equilibrium gadolinium characterization spectra.",
+      "caption_position": "below",
+      "dpi": 300,
+      "width_inches": 1.522,
+      "height_inches": 1.392,
+      "is_vector": false,
+      "data_gt": {
+        "chart_type": "bar",
+        "x": [
+          "Lu",
+          "Er",
+          "Sc",
+          "Nd",
+          "Ce",
+          "Dy",
+          "Sm"
+        ],
+        "y": [
+          50.29,
+          50.71,
+          81.72,
+          85.53,
+          77.93,
+          83.57,
+          43.69
+        ],
+        "xlabel": "REE",
+        "ylabel": "Recovery (%)"
+      }
+    },
+    {
+      "figure_id": 2,
+      "figure_type": "bar_plain",
+      "is_multipanel": false,
+      "panel_count": 1,
+      "page": 3,
+      "bbox": [
+        71.06,
+        57.0,
+        524.22,
+        275.3
+      ],
+      "caption_style": "Fig. N.",
+      "caption_text": "Fig. 2. synergistic characterization adsorption precipitation pH precipitation SEM structure organic.",
+      "caption_position": "below",
+      "dpi": 150,
+      "width_inches": 6.294,
+      "height_inches": 3.032,
+      "is_vector": false,
+      "data_gt": {
+        "chart_type": "bar",
+        "x": [
+          "Yb",
+          "Pr",
+          "Nd",
+          "Sm",
+          "Lu",
+          "Er",
+          "Eu"
+        ],
+        "y": [
+          53.87,
+          63.59,
+          50.01,
+          93.5,
+          86.04,
+          97.81,
+          82.75
+        ],
+        "xlabel": "REE",
+        "ylabel": "Recovery (%)"
+      }
+    },
+    {
+      "figure_id": 3,
+      "figure_type": "radar",
+      "is_multipanel": true,
+      "panel_count": 3,
+      "page": 2,
+      "bbox": [
+        193.07,
+        57.0,
+        402.21,
+        297.45
+      ],
+      "caption_style": "Figure N:",
+      "caption_text": "Figure 3: gadolinium patterns D2EHPA patterns.",
+      "caption_position": "below",
+      "dpi": 96,
+      "width_inches": 2.905,
+      "height_inches": 3.34,
+      "is_vector": true,
+      "data_gt": {
+        "chart_type": "multipanel",
+        "panel_count": 3,
+        "panels": [
+          {
+            "panel_index": 0,
+            "figure_type": "radar",
+            "data": {
+              "chart_type": "unknown",
+              "y": [
+                0.93,
+                1.1,
+                1.71,
+                1.51,
+                2.94,
+                4.2,
+                4.14,
+                4.94,
+                6.94,
+                7.89,
+                8.39,
+                6.87,
+                7.43,
+                6.98,
+                5.08,
+                3.58,
+                3.74,
+                4.08,
+                3.66,
+                2.18,
+                3.19,
+                3.8,
+                4.22,
+                4.47,
+                4.28,
+                4.11,
+                3.69,
+                3.53,
+                4.48,
+                5.24,
+                4.04,
+                4.18,
+                4.89,
+                4.88,
+                5.05,
+                3.6,
+                4.27,
+                3.38,
+                2.79,
+                2.83,
+                -0.04,
+                -2.53,
+                0.02,
+                0.05,
+                -0.1,
+                0.44,
+                1.88,
+                1.61,
+                0.63,
+                -0.17
+              ]
+            }
+          },
+          {
+            "panel_index": 1,
+            "figure_type": "radar",
+            "data": {
+              "chart_type": "unknown",
+              "y": [
+                -0.44,
+                1.57,
+                1.4,
+                0.55,
+                -0.11,
+                -1.22,
+                -0.51,
+                1.29,
+                0.52,
+                1.24,
+                1.48,
+                1.03,
+                1.56,
+                1.75,
+                1.56,
+                1.71,
+                1.51,
+                2.54,
+                3.57,
+                2.3,
+                1.97,
+                3.22,
+                1.93,
+                1.1,
+                0.74,
+                0.22,
+                -0.35,
+                -0.33,
+                -0.32,
+                0.53,
+                -0.15,
+                -1.09,
+                -1.83,
+                -1.97,
+                -3.02,
+                -1.54,
+                -2.39,
+                -4.35,
+                -5.04,
+                -4.06,
+                -4.68,
+                -4.68,
+                -4.63,
+                -4.28,
+                -3.05,
+                -3.09,
+                -3.97,
+                -4.17,
+                -4.02,
+                -4.41
+              ]
+            }
+          },
+          {
+            "panel_index": 2,
+            "figure_type": "radar",
+            "data": {
+              "chart_type": "unknown",
+              "y": [
+                -0.69,
+                -0.21,
+                0.09,
+                0.73,
+                0.76,
+                2.19,
+                0.58,
+                1.73,
+                3.06,
+                2.8,
+                2.9,
+                4.29,
+                3.29,
+                2.37,
+                1.07,
+                1.58,
+                1.07,
+                1.37,
+                2.15,
+                2.11,
+                -0.62,
+                -2.06,
+                -2.1,
+                -2.94,
+                -3.85,
+                -5.5,
+                -6.16,
+                -5.24,
+                -6.38,
+                -7.16,
+                -7.89,
+                -7.67,
+                -6.63,
+                -5.07,
+                -6.38,
+                -6.05,
+                -6.51,
+                -6.82,
+                -6.45,
+                -6.43,
+                -5.74,
+                -5.79,
+                -4.93,
+                -3.93,
+                -4.74,
+                -3.75,
+                -3.68,
+                -3.77,
+                -3.31,
+                -5.4
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "figure_id": 4,
+      "figure_type": "bar_grouped",
+      "is_multipanel": false,
+      "panel_count": 1,
+      "page": 2,
+      "bbox": [
+        138.55,
+        324.95,
+        456.73,
+        499.31
+      ],
+      "caption_style": "Fig. N.",
+      "caption_text": "Fig. 4. purity synergistic precipitation concentration neodymium samarium nanoparticles.",
+      "caption_position": "below",
+      "dpi": 96,
+      "width_inches": 4.419,
+      "height_inches": 2.422,
+      "is_vector": false,
+      "data_gt": {
+        "chart_type": "grouped_bar",
+        "x": [
+          "La",
+          "Yb",
+          "Dy"
+        ],
+        "groups": {
+          "PC88A": [
+            72.12,
+            37.34,
+            65.91
+          ],
+          "D2EHPA": [
+            55.6,
+            21.5,
+            90.02
+          ],
+          "Cyanex 272": [
+            82.8,
+            60.19,
+            61.89
+          ]
+        },
+        "xlabel": "REE",
+        "ylabel": "Extraction (%)"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": 1,
+      "content_type": "text",
+      "orientation": "single_col",
+      "page": 4,
+      "bbox": [
+        42.5,
+        369.0,
+        552.78,
+        465.0
+      ],
+      "data": [
+        [
+          "Condition",
+          "Extractant",
+          "Diluent",
+          "Modifier",
+          "Observation"
+        ],
+        [
+          "25 °C",
+          "PC88A",
+          "n-heptane",
+          "decanol",
+          "Clean sep."
+        ],
+        [
+          "40 °C",
+          "PC88A",
+          "n-heptane",
+          "2-ethylhexanol",
+          "Precipitation"
+        ],
+        [
+          "50 °C",
+          "TBP",
+          "n-heptane",
+          "TBP",
+          "Phase split"
+        ],
+        [
+          "60 °C",
+          "Aliquat 336",
+          "dodecane",
+          "isodecanol",
+          "Phase split"
+        ],
+        [
+          "60 °C",
+          "PC88A",
+          "toluene",
+          "TBP",
+          "Stable"
+        ]
+      ]
+    },
+    {
+      "table_id": 2,
+      "content_type": "text",
+      "orientation": "across_2_col",
+      "page": 4,
+      "bbox": [
+        42.5,
+        68.5,
+        552.78,
+        196.5
+      ],
+      "data": [
+        [
+          "Condition",
+          "Extractant",
+          "Diluent",
+          "Modifier",
+          "Observation"
+        ],
+        [
+          "40 °C",
+          "PC88A",
+          "toluene",
+          "none",
+          "Stable"
+        ],
+        [
+          "50 °C",
+          "Cyanex 272",
+          "toluene",
+          "isodecanol",
+          "Stable"
+        ],
+        [
+          "25 °C",
+          "PC88A",
+          "isodecanol",
+          "none",
+          "Stable"
+        ],
+        [
+          "room temp.",
+          "TOPO",
+          "toluene",
+          "2-ethylhexanol",
+          "Emulsion"
+        ],
+        [
+          "60 °C",
+          "D2EHPA",
+          "toluene",
+          "2-ethylhexanol",
+          "Clean sep."
+        ],
+        [
+          "25 °C",
+          "PC88A",
+          "kerosene",
+          "TBP",
+          "Stable"
+        ],
+        [
+          "60 °C",
+          "EHEHPA",
+          "n-heptane",
+          "isodecanol",
+          "Emulsion"
+        ]
+      ]
+    },
+    {
+      "table_id": 3,
+      "content_type": "text",
+      "orientation": "opposite_text",
+      "page": 1,
+      "bbox": [
+        42.5,
+        672.0,
+        552.78,
+        736.0
+      ],
+      "data": [
+        [
+          "Condition",
+          "Extractant",
+          "Diluent",
+          "Modifier",
+          "Observation"
+        ],
+        [
+          "room temp.",
+          "TOPO",
+          "dodecane",
+          "none",
+          "Phase split"
+        ],
+        [
+          "40 °C",
+          "EHEHPA",
+          "n-heptane",
+          "decanol",
+          "Stable"
+        ],
+        [
+          "50 °C",
+          "Aliquat 336",
+          "toluene",
+          "isodecanol",
+          "Stable"
+        ]
+      ]
+    },
+    {
+      "table_id": 4,
+      "content_type": "text+numerical",
+      "orientation": "across_2_pages",
+      "page": 3,
+      "bbox": [
+        42.5,
+        541.8,
+        552.78,
+        669.8
+      ],
+      "data": [
+        [
+          "Extractant",
+          "pH",
+          "Recovery (%)",
+          "Selectivity",
+          "Notes"
+        ],
+        [
+          "EHEHPA",
+          "5.6",
+          "72.2",
+          "5.5",
+          "Good"
+        ],
+        [
+          "PC88A",
+          "5.1",
+          "60.1",
+          "6.7",
+          "Low"
+        ],
+        [
+          "D2EHPA",
+          "5.1",
+          "30.7",
+          "4.3",
+          "Low"
+        ],
+        [
+          "Aliquat 336",
+          "1.2",
+          "72.4",
+          "6.2",
+          "Excellent"
+        ],
+        [
+          "TOPO",
+          "5.0",
+          "81.9",
+          "4.4",
+          "Excellent"
+        ],
+        [
+          "TBP",
+          "1.0",
+          "95.5",
+          "12.8",
+          "High"
+        ],
+        [
+          "Cyanex 272",
+          "2.1",
+          "45.1",
+          "11.4",
+          "Good"
+        ]
+      ]
+    },
+    {
+      "table_id": 5,
+      "content_type": "numerical",
+      "orientation": "across_2_pages",
+      "page": 3,
+      "bbox": [
+        42.5,
+        340.3,
+        552.78,
+        468.3
+      ],
+      "data": [
+        [
+          "Element",
+          "Conc. (mg/L)",
+          "Recovery (%)",
+          "D value",
+          "Sep. factor"
+        ],
+        [
+          "Sc",
+          "187.57",
+          "39.7",
+          "45.56",
+          "19.06"
+        ],
+        [
+          "Y",
+          "179.90",
+          "22.5",
+          "21.99",
+          "2.32"
+        ],
+        [
+          "Dy",
+          "192.44",
+          "42.9",
+          "36.02",
+          "11.95"
+        ],
+        [
+          "La",
+          "228.47",
+          "94.9",
+          "7.98",
+          "7.71"
+        ],
+        [
+          "Sm",
+          "128.67",
+          "32.5",
+          "47.66",
+          "3.03"
+        ],
+        [
+          "Eu",
+          "386.86",
+          "74.4",
+          "8.38",
+          "8.67"
+        ],
+        [
+          "Pr",
+          "159.39",
+          "36.0",
+          "2.16",
+          "5.12"
+        ]
+      ]
+    }
+  ]
+}

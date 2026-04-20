@@ -1,0 +1,686 @@
+{
+  "paper_id": "syn_018",
+  "pages": 6,
+  "layout": "double",
+  "figures": [
+    {
+      "figure_id": 1,
+      "figure_type": "scatter",
+      "is_multipanel": false,
+      "panel_count": 1,
+      "page": 4,
+      "bbox": [
+        172.82,
+        517.0,
+        422.46,
+        619.41
+      ],
+      "caption_style": "Fig N",
+      "caption_text": "Fig 1 Cyanex phase gadolinium diffraction SEM pH recovery characterization gadolinium.",
+      "caption_position": "below",
+      "dpi": 300,
+      "width_inches": 3.467,
+      "height_inches": 1.422,
+      "is_vector": false,
+      "data_gt": {
+        "chart_type": "scatter",
+        "x": [
+          3.22,
+          1.43,
+          3.72,
+          4.16,
+          4.43,
+          1.62,
+          3.9,
+          3.16,
+          4.91,
+          4.25,
+          4.94,
+          1.8,
+          3.58,
+          4.67,
+          5.31,
+          2.46,
+          3.52,
+          2.7,
+          4.17,
+          3.61,
+          4.61,
+          4.9
+        ],
+        "y": [
+          43.02,
+          12.17,
+          57.45,
+          59.96,
+          70.46,
+          20.26,
+          67.42,
+          41.72,
+          62.24,
+          74.85,
+          84.17,
+          16.33,
+          48.44,
+          83.65,
+          81.56,
+          34.14,
+          45.0,
+          27.35,
+          68.05,
+          44.75,
+          74.54,
+          79.76
+        ],
+        "xlabel": "pH",
+        "ylabel": "Sm Recovery (%)"
+      }
+    },
+    {
+      "figure_id": 2,
+      "figure_type": "bar_grouped",
+      "is_multipanel": false,
+      "panel_count": 1,
+      "page": 5,
+      "bbox": [
+        67.9,
+        304.5,
+        266.74,
+        454.12
+      ],
+      "caption_style": "Figure N.",
+      "caption_text": "Figure 2. praseodymium SEM concentration organic gadolinium praseodymium.",
+      "caption_position": "below",
+      "dpi": 150,
+      "width_inches": 2.762,
+      "height_inches": 2.078,
+      "is_vector": false,
+      "data_gt": {
+        "chart_type": "grouped_bar",
+        "x": [
+          "Sm",
+          "Yb",
+          "Pr",
+          "Nd"
+        ],
+        "groups": {
+          "D2EHPA": [
+            45.13,
+            94.4,
+            68.33,
+            84.41
+          ],
+          "PC88A": [
+            43.4,
+            80.75,
+            34.34,
+            79.68
+          ],
+          "Cyanex 272": [
+            32.09,
+            26.66,
+            94.59,
+            27.29
+          ]
+        },
+        "xlabel": "REE",
+        "ylabel": "Extraction (%)"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": 1,
+      "content_type": "text+numerical",
+      "orientation": "across_2_col",
+      "page": 3,
+      "bbox": [
+        42.5,
+        72.5,
+        552.78,
+        136.5
+      ],
+      "data": [
+        [
+          "Extractant",
+          "pH",
+          "Recovery (%)",
+          "Selectivity",
+          "Notes"
+        ],
+        [
+          "EHEHPA",
+          "3.0",
+          "96.4",
+          "14.2",
+          "Excellent"
+        ],
+        [
+          "TBP",
+          "4.4",
+          "34.3",
+          "2.0",
+          "Excellent"
+        ],
+        [
+          "Aliquat 336",
+          "5.0",
+          "73.5",
+          "14.6",
+          "Good"
+        ]
+      ]
+    },
+    {
+      "table_id": 2,
+      "content_type": "text",
+      "orientation": "opposite_text",
+      "page": 1,
+      "bbox": [
+        42.5,
+        535.5,
+        292.14,
+        631.5
+      ],
+      "data": [
+        [
+          "Condition",
+          "Extractant",
+          "Diluent",
+          "Modifier",
+          "Observation"
+        ],
+        [
+          "25 °C",
+          "Cyanex 272",
+          "n-heptane",
+          "none",
+          "Precipitation"
+        ],
+        [
+          "50 °C",
+          "D2EHPA",
+          "dodecane",
+          "decanol",
+          "Emulsion"
+        ],
+        [
+          "40 °C",
+          "TOPO",
+          "isodecanol",
+          "isodecanol",
+          "Emulsion"
+        ],
+        [
+          "60 °C",
+          "TOPO",
+          "toluene",
+          "isodecanol",
+          "Precipitation"
+        ],
+        [
+          "50 °C",
+          "Cyanex 272",
+          "n-heptane",
+          "2-ethylhexanol",
+          "Emulsion"
+        ]
+      ]
+    },
+    {
+      "table_id": 3,
+      "content_type": "text+numerical",
+      "orientation": "across_2_col",
+      "page": 4,
+      "bbox": [
+        42.5,
+        72.5,
+        552.78,
+        136.5
+      ],
+      "data": [
+        [
+          "Extractant",
+          "pH",
+          "Recovery (%)",
+          "Selectivity",
+          "Notes"
+        ],
+        [
+          "Aliquat 336",
+          "5.5",
+          "56.1",
+          "10.8",
+          "Good"
+        ],
+        [
+          "Cyanex 272",
+          "3.3",
+          "62.6",
+          "4.1",
+          "Excellent"
+        ],
+        [
+          "PC88A",
+          "2.6",
+          "70.4",
+          "4.8",
+          "Good"
+        ]
+      ]
+    },
+    {
+      "table_id": 4,
+      "content_type": "numerical",
+      "orientation": "across_2_pages",
+      "page": 4,
+      "bbox": [
+        42.5,
+        307.5,
+        292.14,
+        419.5
+      ],
+      "data": [
+        [
+          "Element",
+          "Conc. (mg/L)",
+          "Recovery (%)",
+          "D value",
+          "Sep. factor"
+        ],
+        [
+          "Er",
+          "242.85",
+          "75.5",
+          "3.23",
+          "13.64"
+        ],
+        [
+          "Sc",
+          "87.22",
+          "62.3",
+          "31.51",
+          "5.62"
+        ],
+        [
+          "Y",
+          "239.79",
+          "84.1",
+          "25.36",
+          "17.13"
+        ],
+        [
+          "Ce",
+          "311.52",
+          "63.6",
+          "17.63",
+          "2.75"
+        ],
+        [
+          "La",
+          "479.11",
+          "24.7",
+          "33.66",
+          "8.44"
+        ],
+        [
+          "Nd",
+          "224.13",
+          "75.0",
+          "0.74",
+          "7.49"
+        ]
+      ]
+    },
+    {
+      "table_id": 5,
+      "content_type": "text",
+      "orientation": "single_col",
+      "page": 5,
+      "bbox": [
+        42.5,
+        491.12,
+        292.14,
+        603.12
+      ],
+      "data": [
+        [
+          "Condition",
+          "Extractant",
+          "Diluent",
+          "Modifier",
+          "Observation"
+        ],
+        [
+          "25 °C",
+          "PC88A",
+          "n-heptane",
+          "decanol",
+          "Phase split"
+        ],
+        [
+          "50 °C",
+          "TOPO",
+          "toluene",
+          "isodecanol",
+          "Stable"
+        ],
+        [
+          "40 °C",
+          "Cyanex 272",
+          "n-heptane",
+          "none",
+          "Emulsion"
+        ],
+        [
+          "40 °C",
+          "TBP",
+          "kerosene",
+          "decanol",
+          "Emulsion"
+        ],
+        [
+          "40 °C",
+          "TOPO",
+          "isodecanol",
+          "2-ethylhexanol",
+          "Emulsion"
+        ],
+        [
+          "50 °C",
+          "TBP",
+          "isodecanol",
+          "none",
+          "Precipitation"
+        ]
+      ]
+    },
+    {
+      "table_id": 6,
+      "content_type": "numerical",
+      "orientation": "single_col",
+      "page": 5,
+      "bbox": [
+        303.14,
+        302.0,
+        552.78,
+        398.0
+      ],
+      "data": [
+        [
+          "Element",
+          "Conc. (mg/L)",
+          "Recovery (%)",
+          "D value",
+          "Sep. factor"
+        ],
+        [
+          "Nd",
+          "193.73",
+          "35.8",
+          "24.30",
+          "15.66"
+        ],
+        [
+          "La",
+          "332.86",
+          "56.6",
+          "10.97",
+          "5.49"
+        ],
+        [
+          "Ho",
+          "52.59",
+          "29.7",
+          "12.05",
+          "7.12"
+        ],
+        [
+          "Tb",
+          "498.96",
+          "61.2",
+          "22.87",
+          "12.23"
+        ],
+        [
+          "Gd",
+          "59.16",
+          "21.6",
+          "25.52",
+          "18.14"
+        ]
+      ]
+    },
+    {
+      "table_id": 7,
+      "content_type": "numerical",
+      "orientation": "across_2_pages",
+      "page": 4,
+      "bbox": [
+        42.5,
+        158.0,
+        292.14,
+        286.0
+      ],
+      "data": [
+        [
+          "Element",
+          "Conc. (mg/L)",
+          "Recovery (%)",
+          "D value",
+          "Sep. factor"
+        ],
+        [
+          "Sm",
+          "404.32",
+          "45.9",
+          "26.13",
+          "19.29"
+        ],
+        [
+          "Tb",
+          "48.96",
+          "25.1",
+          "15.26",
+          "19.40"
+        ],
+        [
+          "Dy",
+          "424.43",
+          "43.2",
+          "20.77",
+          "14.45"
+        ],
+        [
+          "Y",
+          "106.03",
+          "71.7",
+          "0.78",
+          "3.70"
+        ],
+        [
+          "Sc",
+          "208.58",
+          "63.3",
+          "40.24",
+          "9.46"
+        ],
+        [
+          "Ce",
+          "31.43",
+          "95.5",
+          "6.72",
+          "9.76"
+        ],
+        [
+          "Gd",
+          "122.60",
+          "66.2",
+          "6.46",
+          "3.12"
+        ]
+      ]
+    },
+    {
+      "table_id": 8,
+      "content_type": "numerical",
+      "orientation": "across_2_pages",
+      "page": 5,
+      "bbox": [
+        42.5,
+        164.5,
+        292.14,
+        228.5
+      ],
+      "data": [
+        [
+          "Element",
+          "Conc. (mg/L)",
+          "Recovery (%)",
+          "D value",
+          "Sep. factor"
+        ],
+        [
+          "Nd",
+          "333.57",
+          "66.5",
+          "48.29",
+          "4.91"
+        ],
+        [
+          "Sc",
+          "423.74",
+          "70.7",
+          "27.68",
+          "11.99"
+        ],
+        [
+          "Er",
+          "110.30",
+          "83.7",
+          "0.79",
+          "12.55"
+        ]
+      ]
+    },
+    {
+      "table_id": 9,
+      "content_type": "numerical",
+      "orientation": "single_col",
+      "page": 4,
+      "bbox": [
+        42.5,
+        441.0,
+        292.14,
+        505.0
+      ],
+      "data": [
+        [
+          "Element",
+          "Conc. (mg/L)",
+          "Recovery (%)",
+          "D value",
+          "Sep. factor"
+        ],
+        [
+          "Gd",
+          "242.69",
+          "54.1",
+          "17.15",
+          "19.11"
+        ],
+        [
+          "Pr",
+          "214.35",
+          "60.1",
+          "28.96",
+          "2.38"
+        ],
+        [
+          "Lu",
+          "83.65",
+          "50.7",
+          "6.61",
+          "5.76"
+        ]
+      ]
+    },
+    {
+      "table_id": 10,
+      "content_type": "text",
+      "orientation": "across_2_col",
+      "page": 2,
+      "bbox": [
+        42.5,
+        72.5,
+        552.78,
+        216.5
+      ],
+      "data": [
+        [
+          "Condition",
+          "Extractant",
+          "Diluent",
+          "Modifier",
+          "Observation"
+        ],
+        [
+          "60 °C",
+          "TBP",
+          "dodecane",
+          "isodecanol",
+          "Clean sep."
+        ],
+        [
+          "60 °C",
+          "D2EHPA",
+          "dodecane",
+          "2-ethylhexanol",
+          "Phase split"
+        ],
+        [
+          "60 °C",
+          "D2EHPA",
+          "n-heptane",
+          "decanol",
+          "Emulsion"
+        ],
+        [
+          "room temp.",
+          "D2EHPA",
+          "n-heptane",
+          "decanol",
+          "Emulsion"
+        ],
+        [
+          "40 °C",
+          "D2EHPA",
+          "dodecane",
+          "none",
+          "Clean sep."
+        ],
+        [
+          "25 °C",
+          "Cyanex 272",
+          "n-heptane",
+          "2-ethylhexanol",
+          "Phase split"
+        ],
+        [
+          "40 °C",
+          "EHEHPA",
+          "n-heptane",
+          "TBP",
+          "Clean sep."
+        ],
+        [
+          "60 °C",
+          "EHEHPA",
+          "toluene",
+          "2-ethylhexanol",
+          "Clean sep."
+        ]
+      ]
+    }
+  ]
+}
