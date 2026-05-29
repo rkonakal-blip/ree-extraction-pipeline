@@ -1,4 +1,0 @@
-reportlab
-matplotlib
-numpy
-svglib

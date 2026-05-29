@@ -1,0 +1,45 @@
+{
+  "chart_type": "bar_plain",
+  "figure_metadata": {
+    "title": "Extraction of REEs with Cyanex 272",
+    "orientation": "vertical",
+    "notes": null
+  },
+  "axes": {
+    "category": {
+      "label": "Element / System",
+      "unit": null,
+      "categories": ["La", "Sm", "Pr", "Yb", "Nd", "Tb", "Lu"]
+    },
+    "value": {
+      "label": "Distribution Ratio D",
+      "unit": null,
+      "scale": "linear",
+      "range": [0, 50],
+      "ticks": [0, 10, 20, 30, 40, 50]
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "series_1",
+        "color": "multicolor",
+        "bars": [
+          {"category": "La", "value": 24.0, "cumulative_bottom": null},
+          {"category": "Sm", "value": 13.5, "cumulative_bottom": null},
+          {"category": "Pr", "value": 21.0, "cumulative_bottom": null},
+          {"category": "Yb", "value": 50.0, "cumulative_bottom": null},
+          {"category": "Nd", "value": 17.0, "cumulative_bottom": null},
+          {"category": "Tb", "value": 9.0,  "cumulative_bottom": null},
+          {"category": "Lu", "value": 50.0, "cumulative_bottom": null}
+        ]
+      }
+    ]
+  },
+  "special_additions": {
+    "error_bars": null,
+    "annotations": null,
+    "reference_line": null
+  },
+  "confidence": "HIGH"
+}

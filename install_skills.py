@@ -6,7 +6,7 @@ def install_skills():
     # Paths
     project_root = Path(__file__).parent
     skills_source = project_root / "prompts"
-    claude_dir = Path.home() / ".claude" / "commands"
+    claude_dir = project_root / ".claude" / "commands"
     
     # Create .claude/commands if it doesn't exist
     claude_dir.mkdir(parents=True, exist_ok=True)
@@ -23,7 +23,7 @@ def install_skills():
     for skill in skill_files:
         dest = claude_dir / skill.name
         shutil.copy2(skill, dest)
-        print(f"  ✓ {skill.name}")
+        print(f"  OK {skill.name}")
     
     print(f"\nDone! Run /orchestrate in Claude Code to start the pipeline.")
 
