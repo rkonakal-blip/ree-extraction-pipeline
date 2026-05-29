@@ -1,0 +1,15 @@
+# Pipeline outputs
+results/
+
+# Obsidian
+.obsidian/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/

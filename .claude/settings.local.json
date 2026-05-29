@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(Get-ChildItem \"C:\\\\Users\\\\Rithika\\\\Desktop\\\\ree-extraction-pipeline\\\\results\\\\test_0518\")",
-      "Bash(Select-Object Name, Length)",
-      "Bash(Format-Table -AutoSize)"
-    ]
-  }
-}
